@@ -1,0 +1,1475 @@
+﻿Log file open, 04/30/17 13:29:21
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(654654274) SRandInit(654654274).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.030139
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit: Build: ++UE4+Release-4.15-CL-0
+LogInit: Engine Version: 4.15.0-0+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-0+++UE4+Release-4.15
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar  5 2017 13:55:11
+LogInit: Compiled with Clang: 3.9.1 (tags/RELEASE_391/rc2)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: /usr/local/share/UE/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.30-11.29.21:891][  0]LogInit: Initializing SDL.
+[2017.04.30-11.29.22:264][  0]LogInit: Initialized SDL 2.0.4 revision: 10374 (hg-10374:dccf51aee79b with EpicExtensions) (compiled against 2.0.4)
+[2017.04.30-11.29.22:264][  0]LogInit: Display metrics:
+[2017.04.30-11.29.22:264][  0]LogInit:   PrimaryDisplayWidth: 2560
+[2017.04.30-11.29.22:264][  0]LogInit:   PrimaryDisplayHeight: 1440
+[2017.04.30-11.29.22:264][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2017.04.30-11.29.22:264][  0]LogInit:     Left=0, Top=49, Right=2560, Bottom=1399
+[2017.04.30-11.29.22:264][  0]LogInit:   VirtualDisplayRect:
+[2017.04.30-11.29.22:264][  0]LogInit:     Left=0, Top=0, Right=5120, Bottom=1440
+[2017.04.30-11.29.22:264][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2017.04.30-11.29.22:264][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2017.04.30-11.29.22:264][  0]LogInit:   Number of monitors: 2
+[2017.04.30-11.29.22:264][  0]LogInit:     Monitor 0
+[2017.04.30-11.29.22:264][  0]LogInit:       Name: SMS27A850 24"
+[2017.04.30-11.29.22:264][  0]LogInit:       ID: display0
+[2017.04.30-11.29.22:264][  0]LogInit:       NativeWidth: 2560
+[2017.04.30-11.29.22:264][  0]LogInit:       NativeHeight: 1440
+[2017.04.30-11.29.22:264][  0]LogInit:       bIsPrimary: true
+[2017.04.30-11.29.22:264][  0]LogInit:     Monitor 1
+[2017.04.30-11.29.22:264][  0]LogInit:       Name: SMS27A850 24"
+[2017.04.30-11.29.22:264][  0]LogInit:       ID: display1
+[2017.04.30-11.29.22:264][  0]LogInit:       NativeWidth: 2560
+[2017.04.30-11.29.22:264][  0]LogInit:       NativeHeight: 1440
+[2017.04.30-11.29.22:264][  0]LogInit:       bIsPrimary: false
+[2017.04.30-11.29.22:264][  0]LogLinux: Selected Device Profile: [Linux]
+[2017.04.30-11.29.22:264][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2017.04.30-11.29.22:275][  0]LogInit: Linux hardware info:
+[2017.04.30-11.29.22:275][  0]LogInit:  - we are the first instance of this executable
+[2017.04.30-11.29.22:275][  0]LogInit:  - this process' id (pid) is 8518, parent process' id (ppid) is 1
+[2017.04.30-11.29.22:275][  0]LogInit:  - we are not running under debugger
+[2017.04.30-11.29.22:275][  0]LogInit:  - machine network name is 'jarvis'
+[2017.04.30-11.29.22:275][  0]LogInit:  - user name is 'newgen' (newgen)
+[2017.04.30-11.29.22:275][  0]LogInit:  - we're logged in locally
+[2017.04.30-11.29.22:275][  0]LogInit:  - we're running with rendering
+[2017.04.30-11.29.22:275][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz' (signature: 0x306C3)
+[2017.04.30-11.29.22:275][  0]LogInit:  - Number of physical cores available for the process: 4
+[2017.04.30-11.29.22:275][  0]LogInit:  - Number of logical cores available for the process: 4
+[2017.04.30-11.29.22:275][  0]LogInit:  - Cache line size: 64
+[2017.04.30-11.29.22:275][  0]LogInit:  - Memory allocator used: binned
+[2017.04.30-11.29.22:275][  0]LogLinux: Benchmarking clocks:
+[2017.04.30-11.29.22:275][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 56250886 (56251K, 56M) calls per second without zero deltas.
+[2017.04.30-11.29.22:275][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 58159518 (58160K, 58M) calls per second without zero deltas.
+[2017.04.30-11.29.22:275][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 17166351 (17166K, 17M) calls per second without zero deltas.
+[2017.04.30-11.29.22:275][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 179521779 (179522K, 180M) calls per second with 99.999855% zero deltas.
+[2017.04.30-11.29.22:275][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2017.04.30-11.29.22:275][  0]LogInit: Linux-specific commandline switches:
+[2017.04.30-11.29.22:275][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2017.04.30-11.29.22:275][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2017.04.30-11.29.22:275][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2017.04.30-11.29.22:275][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2017.04.30-11.29.22:275][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2017.04.30-11.29.22:275][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2017.04.30-11.29.22:275][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2017.04.30-11.29.22:276][  0]LogInit:  - Physical RAM available (not considering process quota): 24 GB (24093 MB, 24671572 KB, 25263689728 bytes)
+[2017.04.30-11.29.22:283][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.30-11.29.23:484][  0]LogRHI: Initializing OpenGL RHI
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_RENDERER: GeForce GTX 970/PCIe/SSE2
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 375.27.13
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2017.04.30-11.29.23:484][  0]LogRHI: OpenGL Extensions:
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_base_instance
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_bindless_texture
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_blend_func_extended
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_buffer_storage
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_clear_texture
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_clip_control
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_color_buffer_float
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_conservative_depth
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_compute_shader
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2017.04.30-11.29.23:484][  0]LogRHI:   GL_ARB_copy_buffer
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_copy_image
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_cull_distance
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_debug_output
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_depth_clamp
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_depth_texture
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_derivative_control
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_direct_state_access
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_draw_buffers
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_draw_indirect
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_draw_instanced
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_fragment_program
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_fragment_shader
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_framebuffer_object
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_geometry_shader4
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_get_program_binary
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_gl_spirv
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_gpu_shader5
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_half_float_pixel
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_half_float_vertex
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_imaging
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_indirect_parameters
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_instanced_arrays
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_internalformat_query
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_internalformat_query2
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_map_buffer_range
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_multi_bind
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_multisample
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_multitexture
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_occlusion_query
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_occlusion_query2
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_point_parameters
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_point_sprite
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_program_interface_query
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_provoking_vertex
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_query_buffer_object
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_robustness
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sample_locations
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sample_shading
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sampler_objects
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_ballot
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_clock
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_group_vote
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_image_size
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_objects
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_precision
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_subroutine
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shading_language_100
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shading_language_include
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shading_language_packing
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_shadow
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sparse_buffer
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sparse_texture
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sparse_texture2
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2017.04.30-11.29.23:485][  0]LogRHI:   GL_ARB_stencil_texturing
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_sync
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_tessellation_shader
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_barrier
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_compression
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_cube_map
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_env_add
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_env_combine
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_float
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_gather
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_multisample
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_query_levels
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_query_lod
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_rectangle
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_rg
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_stencil8
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_storage
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_swizzle
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_texture_view
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_timer_query
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_transform_feedback2
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_transform_feedback3
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_transpose_matrix
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_array_object
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_program
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_shader
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_viewport_array
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ARB_window_pos
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ATI_draw_buffers
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ATI_texture_float
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_S3_s3tc
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_texture_env_add
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_abgr
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_bgra
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_bindable_uniform
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_blend_color
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_blend_func_separate
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_blend_minmax
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_blend_subtract
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_Cg_shader
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_direct_state_access
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_draw_buffers2
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_draw_instanced
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_draw_range_elements
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_fog_coord
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_framebuffer_object
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_geometry_shader4
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_gpu_shader4
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_packed_float
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_packed_pixels
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_point_parameters
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_provoking_vertex
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_raster_multisample
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_rescale_normal
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_secondary_color
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_separate_specular_color
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2017.04.30-11.29.23:486][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_shadow_funcs
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_sparse_texture2
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_stencil_two_side
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_stencil_wrap
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture3D
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_array
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_cube_map
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_env_combine
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_integer
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_lod
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_object
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_sRGB
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_storage
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_texture_swizzle
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_timer_query
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_transform_feedback2
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_vertex_array
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_window_rectangles
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_x11_sync_object
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_EXT_import_sync_object
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_KHR_context_flush_control
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_KHR_debug
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_KHR_no_error
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_KHR_robustness
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_KTX_buffer_region
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_bindless_texture
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_blend_square
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_command_list
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_compute_program5
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_conditional_render
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_conservative_raster
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_copy_image
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_depth_buffer_float
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_depth_clamp
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_draw_texture
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_explicit_multisample
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fence
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fill_rectangle
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_float_buffer
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fog_distance
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fragment_program
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fragment_program_option
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fragment_program2
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_geometry_shader4
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_gpu_program4
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_gpu_program4_1
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_gpu_program5
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_gpu_shader5
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_half_float
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_light_max_exponent
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_multisample_coverage
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_occlusion_query
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_path_rendering
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_pixel_data_range
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_point_sprite
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_primitive_restart
+[2017.04.30-11.29.23:487][  0]LogRHI:   GL_NV_register_combiners
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_register_combiners2
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_sample_locations
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_atomic_float
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_buffer_load
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texgen_reflection
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_barrier
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_env_combine4
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_multisample
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_rectangle
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_shader
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_shader2
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_texture_shader3
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_transform_feedback
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_transform_feedback2
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vdpau_interop
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_array_range
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_array_range2
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_program
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_program1_1
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_program2
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_program2_option
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_vertex_program3
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_viewport_array2
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_viewport_swizzle
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NVX_conditional_render
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NVX_nvenc_interop
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_thread_group
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_SGIS_texture_lod
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_SGIX_depth_texture
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_SGIX_shadow
+[2017.04.30-11.29.23:488][  0]LogRHI:   GL_SUN_slice_accum
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2017.04.30-11.29.23:489][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2017.04.30-11.29.23:489][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2017.04.30-11.29.23:494][  0]LogRHI: Texture pool is 2867 MB (70% of 4096 MB)
+[2017.04.30-11.29.23:494][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../../../home/newgen/UnrealProjects/ServerClick/Intermediate/Shaders/WorkingDirectory/8518/).
+[2017.04.30-11.29.23:494][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Intermediate/Shaders/tmp/0003897417040D1E001D01EE27389E67/'.
+[2017.04.30-11.29.23:494][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.30-11.29.26:588][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.30-11.29.26:741][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.30-11.29.26:891][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.30-11.29.27:031][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.30-11.29.27:182][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.30-11.29.27:335][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.30-11.29.27:486][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.30-11.29.28:394][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.30-11.29.28:394][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.30-11.29.28:394][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.30-11.29.28:394][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.30-11.29.28:394][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.30-11.29.28:394][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.30-11.29.28:528][  0]LogTemp:Display: Failed to get target platform HTML5TargetPlatform
+[2017.04.30-11.29.28:528][  0]LogTargetPlatformManager:Display: Building Assets For Linux
+[2017.04.30-11.29.28:833][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.30-11.29.28:875][  0]LogDerivedDataCache: Loaded boot cache 0.04s 60MB ../../../../../../../../home/newgen/UnrealProjects/ServerClick/DerivedDataCache/Boot.ddc.
+[2017.04.30-11.29.28:875][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../../../home/newgen/UnrealProjects/ServerClick/DerivedDataCache/Boot.ddc
+[2017.04.30-11.29.28:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../home/newgen/UnrealProjects/ServerClick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.30-11.29.28:875][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.30-11.29.28:876][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.30-11.29.28:876][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2017.04.30-11.29.28:876][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2017.04.30-11.29.28:876][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2017.04.30-11.29.28:876][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2017.04.30-11.29.28:884][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.30-11.29.28:885][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2017.04.30-11.29.28:885][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2017.04.30-11.29.29:112][  0]LogLinux: Selected Device Profile: [Linux]
+[2017.04.30-11.29.29:113][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.30-11.29.29:548][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.30-11.29.29:550][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.30-11.29.29:550][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.30-11.29.29:550][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.30-11.29.29:950][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1666697174
+[2017.04.30-11.29.30:186][  0]LogAssetRegistry: FAssetRegistry took 0.0003 seconds to start up
+[2017.04.30-11.29.30:238][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.007110 seconds
+[2017.04.30-11.29.30:246][  0]LogUObjectArray: 32343 objects as part of root set at end of initial load.
+[2017.04.30-11.29.30:246][  0]LogUObjectAllocator: 7031048 out of 0 bytes used by permanent object pool.
+[2017.04.30-11.29.30:246][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.30-11.29.30:527][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2017.04.30-11.29.34:329][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.30-11.29.35:211][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.30-11.29.38:217][  0]SourceControl: Info Source control is disabled
+[2017.04.30-11.29.38:217][  0]SourceControl: Info Source control is disabled
+[2017.04.30-11.29.38:866][  0]SourceControl: Info Source control is disabled
+[2017.04.30-11.29.39:014][  0]SourceControl: Info Source control is disabled
+[2017.04.30-11.29.39:019][  0]LogDesktopPlatform: DesktopPlatformLinux is not using LinuxNativeDialogs.
+[2017.04.30-11.29.39:385][  0]LogEngine: Initializing Engine...
+[2017.04.30-11.29.39:965][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.30-11.29.39:975][  0]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.29.39:976][  0]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.29.39:976][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.29.39:976][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.29.39:976][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.29.39:976][  0]LogInit: FAudioDevice initialized.
+[2017.04.30-11.29.40:017][  0]LogDerivedDataCache: Saved boot cache 0.04s 60MB ../../../../../../../../home/newgen/UnrealProjects/ServerClick/DerivedDataCache/Boot.ddc.
+[2017.04.30-11.29.40:190][  0]LogInit: Texture streaming: Enabled
+[2017.04.30-11.29.40:596][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.30-11.29.41:402][  0]LogInit: Transaction tracking system initialized
+[2017.04.30-11.29.42:461][  0]BlueprintLog: New page: Editor Load
+[2017.04.30-11.29.44:990][  0]LocalizationService: Info Localization service is disabled
+[2017.04.30-11.29.46:037][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.30-11.29.46:963][  0]LogConsoleResponse:Display: 
+[2017.04.30-11.29.47:062][  0]LogFileCache: Scanning file cache for directory '/home/newgen/UnrealProjects/ServerClick/Content/' took 0.00s
+[2017.04.30-11.29.47:062][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.30-11.29.47:062][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.30-11.29.49:498][  0]SourceControl: Info Source control is disabled
+[2017.04.30-11.29.49:498][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-11.29.49:499][  0]LightingResults: New page: Lighting Build
+[2017.04.30-11.29.49:605][  0]MapCheck: New page: Map Check
+[2017.04.30-11.29.49:605][  0]LightingResults: New page: Lighting Build
+[2017.04.30-11.29.49:618][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:618][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2017.04.30-11.29.49:618][  0]LoadErrors:Error: Error /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Engine/EngineSky/BP_Sky_Sphere
+[2017.04.30-11.29.49:625][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:626][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2017.04.30-11.29.49:626][  0]LoadErrors:Error: Error /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Engine/EngineSky/BP_Sky_Sphere
+[2017.04.30-11.29.49:627][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:627][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2017.04.30-11.29.49:627][  0]LoadErrors:Error: Error /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Engine/EngineSky/BP_Sky_Sphere
+[2017.04.30-11.29.49:628][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:628][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2017.04.30-11.29.49:628][  0]LoadErrors:Error: Error /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Engine/EngineSky/BP_Sky_Sphere
+[2017.04.30-11.29.49:630][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:630][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:630][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:631][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:631][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:632][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:632][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:632][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:633][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:633][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:634][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:634][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:635][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:636][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:636][  0]LogLinker:Warning: Can't find file '/Engine/EngineSky/BP_Sky_Sphere'
+[2017.04.30-11.29.49:636][  0]LoadErrors: Info Failed to load /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C Referenced by PersistentLevel
+[2017.04.30-11.29.49:636][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineSky/BP_Sky_Sphere' while loading NULL.
+[2017.04.30-11.29.49:636][  0]LoadErrors: Info Failed to load /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C Referenced by PersistentLevel
+[2017.04.30-11.29.49:643][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-11.29.49:644][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-11.29.49:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-11.29.49:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-11.29.49:667][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 10.678ms to complete.
+[2017.04.30-11.29.49:667][  0]LogFileHelpers: Loading map 'Template_Default' took 0.169
+[2017.04.30-11.29.50:006][  0]LogCollectionManager: Loaded 0 collections in 0.000939 seconds
+[2017.04.30-11.29.50:021][  0]LogFileCache: Scanning file cache for directory '/home/newgen/UnrealProjects/ServerClick/Saved/Collections/' took 0.00s
+[2017.04.30-11.29.50:021][  0]LogFileCache: Scanning file cache for directory '/home/newgen/UnrealProjects/ServerClick/Content/Developers/newgen/Collections/' took 0.00s
+[2017.04.30-11.29.50:021][  0]LogFileCache: Scanning file cache for directory '/home/newgen/UnrealProjects/ServerClick/Content/Collections/' took 0.00s
+[2017.04.30-11.29.50:021][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2231 classes and 427 folders.
+[2017.04.30-11.29.50:024][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.30-11.29.50:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.30-11.29.50:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.30-11.29.50:279][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.30-11.29.50:298][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.30-11.29.50:429][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.30-11.29.50:508][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.30-11.29.50:519][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.30-11.29.50:669][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.30-11.29.50:670][  0]LogLoad: (Engine Initialization) Total time: 30.57 seconds
+[2017.04.30-11.29.50:670][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.04.30-11.29.50:670][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.30-11.29.51:006][  0]LogSlate: Took 0.000056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-11.29.51:017][  0]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.30-11.29.51:022][  0]LogSlate: Took 0.000069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.30-11.29.51:120][  0]LogRenderer: Reallocating scene render targets to support 1616x780 NumSamples 1 (Frame:2).
+[2017.04.30-11.29.51:230][  0]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.29.51:230][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sky Sphere mesh': BP_Sky_Sphere_C /Temp/Untitled_1.Template_Default:PersistentLevel.SkySphere
+[2017.04.30-11.29.51:230][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_1': StaticMeshComponent /Temp/Untitled_1.Template_Default:PersistentLevel.SkySphere.Sky Sphere mesh
+[2017.04.30-11.29.51:230][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Base': BP_Sky_Sphere_C /Temp/Untitled_1.Template_Default:PersistentLevel.SkySphere
+[2017.04.30-11.29.51:264][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.30-11.29.51:354][  1]LogAssetRegistry: Asset discovery search completed in 21.1681 seconds
+[2017.04.30-11.29.51:354][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.04.30-11.29.51:354][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2017.04.30-11.29.52:571][140]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.29.59:041][843]LogBlueprint:Error: [Compiler Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.29.59:041][843]LogBlueprint:Error: [Compiler Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.29.59:041][843]LogBlueprint:Error: [Compiler Actor_Blueprint] Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.29.59:049][843]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0038.95] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 16 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.29.59:050][843]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0038.95] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.29.59:050][843]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0038.95] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.29.59:126][844]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.01:878][161]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.03:069][302]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-11.30.03:079][302]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.03:678][302]LogSlate: Took 0.000036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-11.30.03:966][302]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.04.30-11.30.04:835][302]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.30-11.30.04:983][303]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.04:983][303]LogSlate: Took 0.000056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.30-11.30.11:418][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.30-11.30.12:578][500]LogEditorViewport: Clicking on Actor (LMB): Actor_Blueprint_C (Actor_Blueprint)
+[2017.04.30-11.30.17:964][627]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.21:212][706]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.29:070][908]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.36:062][ 94]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.36:643][ 95]LogRenderer: Reallocating scene render targets to support 1844x992 NumSamples 1 (Frame:1893).
+[2017.04.30-11.30.39:451][175]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.39:484][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.30.39:513][175]LogSavePackage: Save=27.65ms
+[2017.04.30-11.30.39:513][175]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/Cone_Actor_Blueprint8CAF293827040D1E001E01E52BC025C5.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset'
+[2017.04.30-11.30.39:513][175]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset
+[2017.04.30-11.30.40:670][207]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.44:274][207]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.30.44:422][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.30.44:500][207]LogSavePackage: Save=28.35ms
+[2017.04.30-11.30.44:500][207]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMap8CBF3A272C040D1E001E01D82C0C3DD1.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.30.44:501][207]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.30.44:523][207]LogFileHelpers: Saving map 'NewMap' took 0.318
+[2017.04.30-11.30.48:172][312]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.31.06:696][648]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.30-11.31.06:771][648]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-11.31.06:986][651]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.07:320][652]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.07:659][653]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.07:993][654]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:356][655]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:409][656]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:463][657]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:516][658]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:572][658]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:577][659]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:637][659]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:703][661]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:758][662]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:865][664]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:920][665]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.08:975][666]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.09:033][666]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.09:035][666]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.09:094][668]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.09:157][669]LogLinux:Warning: SDL_GL_MakeCurrent() failed, SDL error: 'Invalid window'
+[2017.04.30-11.31.09:268][671]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.31.09:268][671]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'IsSel' variable not found. Base class was probably changed.
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'IsSel' variable not found. Base class was probably changed.
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'IsSel' variable not found. Base class was probably changed.
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'IsSel' variable not found. Base class was probably changed.
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'IsSel' variable not found. Base class was probably changed.
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'CylinderMesh' variable not found. Base class was probably changed.
+[2017.04.30-11.31.11:512][717]LogBlueprint:Warning: [Cone_Actor_Blueprint] 'CylinderMesh' variable not found. Base class was probably changed.
+[2017.04.30-11.32.05:391][669]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.32.08:110][714]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.32.10:704][760]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.32.10:735][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.32.10:783][760]LogSavePackage: Save=39.46ms
+[2017.04.30-11.32.10:783][760]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/Cone_Actor_Blueprint977EB0C90A040D1E002002E7313098EC.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset'
+[2017.04.30-11.32.10:783][760]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset
+[2017.04.30-11.32.11:951][780]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.32.11:977][780]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.32.11:977][780]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.32.11:977][780]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.32.12:308][780]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.32.12:308][780]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.32.12:308][780]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.32.12:308][780]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0172.21] Compile of Cone_Actor_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 356 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.32.18:637][894]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.32.18:669][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.32.18:720][894]LogSavePackage: Save=40.28ms
+[2017.04.30-11.32.18:720][894]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/Cone_Actor_Blueprint99C0FAFB12040D1E002002A831A9BED2.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset'
+[2017.04.30-11.32.18:721][894]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset
+[2017.04.30-11.32.29:819][ 96]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.32.30:462][105]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.32.48:489][423]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.32.48:515][423]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.04.30-11.32.48:685][423]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.04.30-11.32.48:685][423]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0208.59] Compile of Cone_Actor_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 195 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.33.00:780][638]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.00:810][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.33.00:861][638]LogSavePackage: Save=40.82ms
+[2017.04.30-11.33.00:861][638]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/Cone_Actor_Blueprint9EF2388A00040D1E00210334342CBC8A.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset'
+[2017.04.30-11.33.00:862][638]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset
+[2017.04.30-11.33.04:123][696]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.07:318][753]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.12:485][842]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.20:909][992]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.24:641][ 59]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.24:672][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.33.24:723][ 59]LogSavePackage: Save=42.25ms
+[2017.04.30-11.33.24:723][ 59]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/Cone_Actor_Blueprint9EFE364B18040D1E002102A93598D4C2.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset'
+[2017.04.30-11.33.24:724][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset
+[2017.04.30-11.33.29:823][145]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.30:413][154]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.32:634][190]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.35:702][242]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.33.38:246][286]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.33.38:275][286]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.33.38:275][286]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.33.38:275][286]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.33.38:443][286]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.33.38:443][286]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.33.38:444][286]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.33.38:444][286]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0258.35] Compile of Cone_Actor_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 197 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.34.30:922][231]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.34.30:947][231]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.34.30:947][231]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.34.30:948][231]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.34.31:115][231]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.34.31:115][231]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.34.31:115][231]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.34.31:115][231]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0311.02] Compile of Cone_Actor_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 193 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.35.37:508][449]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.35.37:534][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.35.37:579][449]LogSavePackage: Save=39.99ms
+[2017.04.30-11.35.37:579][449]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/Actor_BlueprintA49465C725040D1E0023021B3D8415B3.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Actor_Blueprint.uasset'
+[2017.04.30-11.35.37:579][449]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Actor_Blueprint.uasset
+[2017.04.30-11.35.38:910][467]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.35.48:926][640]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.36.28:419][332]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.36.31:855][393]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.36.43:628][604]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.36.43:654][604]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Event Dispatcher pin is not connected  Bind Event to OnBeginCursorOver
+[2017.04.30-11.36.43:823][604]BlueprintEditorCompileResults:Error: Error Event Dispatcher pin is not connected  Bind Event to OnBeginCursorOver
+[2017.04.30-11.36.43:823][604]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0443.72] Compile of Cone_Actor_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 195 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.36.54:571][799]LogEditorTransaction: Undo Move Node
+[2017.04.30-11.36.54:839][801]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.36.54:923][803]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-11.36.55:551][812]LogEditorTransaction: Undo Create Pin Link
+[2017.04.30-11.36.56:563][829]LogEditorTransaction: Undo Move Node
+[2017.04.30-11.36.57:307][841]LogEditorTransaction: Undo Comment Bubble Visibility
+[2017.04.30-11.36.57:996][852]LogEditorTransaction: Undo Create Pin Link
+[2017.04.30-11.37.00:423][887]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.37.03:154][922]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.37.28:008][359]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.37.30:631][406]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.37.30:659][406]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.37.30:659][406]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.37.30:659][406]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.37.30:834][406]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.37.30:834][406]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.37.30:834][406]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.37.30:835][406]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0490.74] Compile of Cone_Actor_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 203 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.37.38:614][546]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.37.51:228][772]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.37.51:255][772]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.37.51:255][772]LogBlueprint:Error: [Compiler Cone_Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.37.51:424][772]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.37.51:424][772]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.37.51:424][772]LogBlueprint:Warning: [Compiler Cone_Actor_Blueprint] Warning [0511.33] Compile of Cone_Actor_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 196 ms] (/Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint)
+[2017.04.30-11.37.54:824][831]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.37.58:741][899]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.38.04:194][995]BlueprintLog: New page: Compile Cone_Actor_Blueprint
+[2017.04.30-11.38.10:913][113]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.38.10:945][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.38.10:965][113]LogSavePackage:Warning: Obj in another map: Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint
+[2017.04.30-11.38.11:034][113]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.38.31:626][113]LogSavePackage:Warning: 
+Referencers of Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint:
+[2017.04.30-11.38.31:677][113]LogSavePackage:Warning: 	K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0 (1 refs)
+[2017.04.30-11.38.31:678][113]LogSavePackage:Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner
+[2017.04.30-11.38.31:678][113]LogSavePackage:Warning: 	K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2 (1 refs)
+[2017.04.30-11.38.31:678][113]LogSavePackage:Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner
+[2017.04.30-11.38.31:678][113]LogSavePackage:Warning: 	K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29 (1 refs)
+[2017.04.30-11.38.31:678][113]LogSavePackage:Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner
+[2017.04.30-11.38.31:754][113]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.38.36:539][113]EditorErrors: New page: Save Output
+[2017.04.30-11.38.36:539][113]EditorErrors:Warning: Warning Object 'Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint' is in another map
+[2017.04.30-11.38.36:539][113]EditorErrors:Warning: Warning Can't save ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset: Graph is linked to object Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint (EventOwner) in external map
+[2017.04.30-11.39.13:280][ 29]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.39.15:661][ 95]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.39.35:282][615]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.39.35:312][615]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-11.39.35:312][615]LogPlayLevel: [PlayLevel] Compiling Actor_Blueprint before play...
+[2017.04.30-11.39.35:337][615]LogBlueprint:Error: [Compiler Actor_Blueprint] Error Couldn't find object for bound event node  OnBeginCursorOver (None)
+[2017.04.30-11.39.35:337][615]LogBlueprint:Error: [Compiler Actor_Blueprint] Error Couldn't find object for bound event node  OnEndCursorOver (None)
+[2017.04.30-11.39.35:337][615]LogBlueprint:Error: [Compiler Actor_Blueprint] Error Couldn't find object for bound event node  OnClicked (None)
+[2017.04.30-11.39.35:618][615]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0615.52] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 294 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.39.35:618][615]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0615.52] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.39.35:618][615]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0615.52] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.39.35:619][615]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0615.52] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.39.35:623][615]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0615.52] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 4 Warning(s) [in 4 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.39.35:623][615]LogBlueprint:Warning: [Compiler Actor_Blueprint] Warning [0615.52] Compile of Actor_Blueprint failed. 3 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Actor_Blueprint.Actor_Blueprint)
+[2017.04.30-11.39.35:642][615]LogPlayLevel: PlayLevel: Blueprint regeneration took 329 ms (1 blueprints)
+[2017.04.30-11.39.35:642][615]BlueprintLog: Info Blueprint Actor_Blueprint failed to compile
+[2017.04.30-11.39.35:688][615]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.39.43:194][615]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:39:43 PM)
+[2017.04.30-11.39.43:194][615]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.39.43:197][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002021s)
+[2017.04.30-11.39.43:197][615]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.39.43:197][615]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2017.04.30-11.39.43:198][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003057s)
+[2017.04.30-11.39.43:217][615]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.39.43:217][615]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.39.43:217][615]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.39.43:217][615]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.39.43:217][615]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.39.43:217][615]LogInit: FAudioDevice initialized.
+[2017.04.30-11.39.43:339][615]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.39.43:341][615]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.39.43
+[2017.04.30-11.39.43:342][615]LogWorld: Bringing up level for play took: 0.001207
+[2017.04.30-11.39.43:463][615]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.04.30-11.39.43:499][615]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 8.187
+[2017.04.30-11.39.43:737][617]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.39.57:050][793]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.40.07:493][972]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.19:295][178]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.21:260][198]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.23:672][236]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.41:318][559]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.41:319][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.40.41:340][559]LogSavePackage:Warning: Obj in another map: Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint
+[2017.04.30-11.40.41:395][559]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.51:594][559]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.40.52:350][559]EditorErrors: New page: Save Output
+[2017.04.30-11.40.52:351][559]EditorErrors:Warning: Warning Object 'Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint' is in another map
+[2017.04.30-11.40.52:351][559]EditorErrors:Warning: Warning Can't save ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset: Graph is linked to object Unknown in external map
+[2017.04.30-11.40.52:414][559]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.04:827][888]LogEditorActor: Deleted Actor: Actor_Blueprint_C
+[2017.04.30-11.41.04:845][888]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.04.30-11.41.10:844][ 69]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.10:847][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.41.10:894][ 69]LogSavePackage: Save=25.67ms
+[2017.04.30-11.41.10:894][ 69]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMapB748903E0A040D1E0029036451624212.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.41.10:895][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.41.18:658][249]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.18:661][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.41.18:681][249]LogSavePackage:Warning: Obj in another map: Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint
+[2017.04.30-11.41.18:731][249]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.26:032][249]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.26:048][249]EditorErrors: New page: Save Output
+[2017.04.30-11.41.26:049][249]EditorErrors:Warning: Warning Object 'Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint' is in another map
+[2017.04.30-11.41.26:049][249]EditorErrors:Warning: Warning Can't save ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset: Graph is linked to object Unknown in external map
+[2017.04.30-11.41.44:797][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:797][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/serverclick_001.umap.
+[2017.04.30-11.41.44:797][785]LoadErrors:Error: Error /Game/serverclick_001 : Can't find file for asset. /Game/Actor_Blueprint_Cone
+[2017.04.30-11.41.44:811][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:812][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/serverclick_001.umap.
+[2017.04.30-11.41.44:812][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:812][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/serverclick_001.umap.
+[2017.04.30-11.41.44:813][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:813][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/serverclick_001.umap.
+[2017.04.30-11.41.44:814][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:814][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:814][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:814][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:814][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:814][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:815][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:815][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:844][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:844][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:844][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:845][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:846][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:846][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:846][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:846][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:847][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:847][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:847][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:847][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:848][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:848][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:848][785]LogLinker:Warning: Can't find file '/Game/Actor_Blueprint_Cone'
+[2017.04.30-11.41.44:848][785]LoadErrors: Info Failed to load /Game/Actor_Blueprint_Cone.Actor_Blueprint_Cone_C Referenced by PersistentLevel
+[2017.04.30-11.41.44:848][785]LogLinker:Warning: Can't find file for asset '/Game/Actor_Blueprint_Cone' while loading NULL.
+[2017.04.30-11.41.44:867][785]LogAIModule: Creating AISystem for world serverclick_001
+[2017.04.30-11.41.44:915][785]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.46:853][785]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.46:890][785]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.46:920][785]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.46:991][785]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot1': Actor_Blueprint_Cone_C /Game/serverclick_001.serverclick_001:PersistentLevel.Actor_Blueprint_Cone
+[2017.04.30-11.41.46:991][785]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Cone': Actor_Blueprint_Cone_C /Game/serverclick_001.serverclick_001:PersistentLevel.Actor_Blueprint_Cone
+[2017.04.30-11.41.51:657][916]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.52:720][916]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.52:755][916]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.52:785][916]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.41.58:522][ 76]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.03:345][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.30-11.42.03:433][ 76]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.03:537][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Actor_Blueprint_C_0' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:538][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0_Template' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:538][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1_Template' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:538][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:539][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CurveFloat_0' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:539][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CurveFloat_0_1' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:539][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:540][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot1_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:540][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CylinderMesh_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:540][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Actor_Blueprint_C_1' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:541][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:541][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0__FinishedFunc' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:541][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0__UpdateFunc' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:541][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1__FinishedFunc' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:542][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1__UpdateFunc' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:542][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Cylinder_5_K2Node_ActorBoundEvent_0_ActorBeginCursorOverSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:542][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Cylinder_5_K2Node_ActorBoundEvent_2_ActorEndCursorOverSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Cylinder_5_K2Node_ActorBoundEvent_29_ActorOnClickedSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Actor_Blueprint' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0__FinishedFunc' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0__UpdateFunc' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1__FinishedFunc' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1__UpdateFunc' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Cylinder_5_K2Node_ActorBoundEvent_0_ActorBeginCursorOverSignature__DelegateSignature' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Cylinder_5_K2Node_ActorBoundEvent_2_ActorEndCursorOverSignature__DelegateSignature' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:543][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Cylinder_5_K2Node_ActorBoundEvent_29_ActorOnClickedSignature__DelegateSignature' or package '/Game/Actor_Blueprint'.
+[2017.04.30-11.42.03:544][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CylinderMesh' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:544][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot1' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:544][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1_5sec_B3CAD9CF17040D1E000403C7CDD7A5A6' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:545][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1__Direction_B3CAD9CF17040D1E000403C7CDD7A5A6' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:545][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_1' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:545][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0_5sec_B32BBD2517040D1E000403BBCDD7761F' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:545][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0__Direction_B32BBD2517040D1E000403BBCDD7761F' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:546][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timeline_0' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:546][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'IsSel' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:546][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:547][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Actor_Blueprint_C_135' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:547][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Actor_Blueprint_C_134' or package '/Engine/Transient'.
+[2017.04.30-11.42.03:547][ 76]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Actor_Blueprint_C_113' or package '/Engine/Transient'.
+[2017.04.30-11.42.10:072][322]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.10:076][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.42.10:119][322]LogSavePackage: Save=27.09ms
+[2017.04.30-11.42.10:119][322]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMapBB145FD40A040D1E002A005C54E9F325.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.42.10:119][322]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.42.15:269][881]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.17:364][130]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.17:973][132]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.21:356][224]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.42.21:369][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.42.21:369][224]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:42:21 PM)
+[2017.04.30-11.42.21:369][224]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.42.21:371][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001865s)
+[2017.04.30-11.42.21:371][224]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.42.21:371][224]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2017.04.30-11.42.21:372][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002711s)
+[2017.04.30-11.42.21:390][224]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.42.21:390][224]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.42.21:390][224]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.42.21:390][224]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.42.21:390][224]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.42.21:391][224]LogInit: FAudioDevice initialized.
+[2017.04.30-11.42.21:432][224]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.42.21:434][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.42.21
+[2017.04.30-11.42.21:434][224]LogWorld: Bringing up level for play took: 0.000989
+[2017.04.30-11.42.21:436][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.067
+[2017.04.30-11.42.38:002][699]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.42.41:502][793]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.42:348][814]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.42.43:025][825]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.43.33:952][555]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.44.24:800][624]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.44.27:765][845]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.44.27:768][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.44.27:882][845]LogSavePackage: Save=94.30ms
+[2017.04.30-11.44.27:882][845]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMapBBC670391B040D1E002C03535D2007A0.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.44.27:883][845]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.44.29:117][933]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.44.29:129][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.29:129][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.44.29:129][933]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:44:29 PM)
+[2017.04.30-11.44.29:130][933]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.44.29:132][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002385s)
+[2017.04.30-11.44.29:132][933]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.44.29:133][933]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2017.04.30-11.44.29:133][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003275s)
+[2017.04.30-11.44.29:184][933]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.44.29:185][933]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.44.29:185][933]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.44.29:185][933]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.44.29:185][933]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.44.29:185][933]LogInit: FAudioDevice initialized.
+[2017.04.30-11.44.29:213][933]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.44.29:215][933]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.44.29
+[2017.04.30-11.44.29:216][933]LogWorld: Bringing up level for play took: 0.001338
+[2017.04.30-11.44.29:217][933]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.087
+[2017.04.30-11.44.29:217][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.34:590][459]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.34:720][459]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.34:739][459]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.44.38:978][802]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.44.38:989][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.38:990][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.44.38:990][802]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:44:38 PM)
+[2017.04.30-11.44.38:990][802]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.44.38:992][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002139s)
+[2017.04.30-11.44.38:992][802]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.44.38:993][802]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.04.30-11.44.38:993][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003023s)
+[2017.04.30-11.44.39:039][802]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.44.39:040][802]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.44.39:040][802]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.44.39:040][802]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.44.39:040][802]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.44.39:040][802]LogInit: FAudioDevice initialized.
+[2017.04.30-11.44.39:068][802]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.44.39:070][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.44.39
+[2017.04.30-11.44.39:071][802]LogWorld: Bringing up level for play took: 0.001211
+[2017.04.30-11.44.39:072][802]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.082
+[2017.04.30-11.44.39:072][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.41:660][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.41:792][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.44.41:810][ 56]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.44.43:184][161]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.04.30-11.44.45:479][357]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.30-11.45.00:200][584]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.45.00:202][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.45.00:314][584]LogSavePackage: Save=93.65ms
+[2017.04.30-11.45.00:314][584]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMapBBFEE4DB00040D1E002D011C5F0EE662.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.45.00:315][584]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.45.00:920][630]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.45.00:931][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.00:931][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.45.00:931][630]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:45:00 PM)
+[2017.04.30-11.45.00:931][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.45.00:933][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
+[2017.04.30-11.45.00:934][630]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.45.00:934][630]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.04.30-11.45.00:934][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002858s)
+[2017.04.30-11.45.00:953][630]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.45.00:954][630]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.45.00:954][630]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.45.00:954][630]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.45.00:954][630]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.45.00:954][630]LogInit: FAudioDevice initialized.
+[2017.04.30-11.45.00:986][630]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.45.00:988][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.45.00
+[2017.04.30-11.45.00:988][630]LogWorld: Bringing up level for play took: 0.001219
+[2017.04.30-11.45.00:989][630]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.058
+[2017.04.30-11.45.00:990][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.02:705][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.02:759][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.02:778][796]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.45.16:669][  5]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.45.16:681][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.16:681][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.45.16:681][  5]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:45:16 PM)
+[2017.04.30-11.45.16:681][  5]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.45.16:683][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002284s)
+[2017.04.30-11.45.16:684][  5]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.45.16:684][  5]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.04.30-11.45.16:684][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003273s)
+[2017.04.30-11.45.16:703][  5]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.45.16:704][  5]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.45.16:704][  5]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.45.16:704][  5]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.45.16:704][  5]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.45.16:704][  5]LogInit: FAudioDevice initialized.
+[2017.04.30-11.45.16:739][  5]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.45.16:741][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.45.16
+[2017.04.30-11.45.16:741][  5]LogWorld: Bringing up level for play took: 0.001410
+[2017.04.30-11.45.16:743][  5]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.063
+[2017.04.30-11.45.16:743][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.21:332][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.21:388][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.21:407][478]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.45.24:453][750]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.45.24:465][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.24:466][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.45.24:466][750]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:45:24 PM)
+[2017.04.30-11.45.24:466][750]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.45.24:468][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002280s)
+[2017.04.30-11.45.24:469][750]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.45.24:469][750]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.04.30-11.45.24:469][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003147s)
+[2017.04.30-11.45.24:489][750]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.45.24:490][750]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.45.24:490][750]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.45.24:490][750]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.45.24:490][750]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.45.24:490][750]LogInit: FAudioDevice initialized.
+[2017.04.30-11.45.24:520][750]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.45.24:522][750]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.45.24
+[2017.04.30-11.45.24:523][750]LogWorld: Bringing up level for play took: 0.001207
+[2017.04.30-11.45.24:524][750]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.059
+[2017.04.30-11.45.24:524][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.28:064][114]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (252, 4 is larger than threshold 250)
+[2017.04.30-11.45.28:074][115]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (252, -4 is larger than threshold 250)
+[2017.04.30-11.45.28:084][116]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (252, -4 is larger than threshold 250)
+[2017.04.30-11.45.28:384][147]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-260, 2 is larger than threshold 250)
+[2017.04.30-11.45.28:393][148]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-272, -4 is larger than threshold 250)
+[2017.04.30-11.45.28:403][149]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-280, -4 is larger than threshold 250)
+[2017.04.30-11.45.28:413][150]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-282, -18 is larger than threshold 250)
+[2017.04.30-11.45.28:423][151]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-276, -20 is larger than threshold 250)
+[2017.04.30-11.45.28:423][151]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-266, -30 is larger than threshold 250)
+[2017.04.30-11.45.28:433][152]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-254, -34 is larger than threshold 250)
+[2017.04.30-11.45.29:023][212]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (250, 22 is larger than threshold 250)
+[2017.04.30-11.45.29:033][213]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (256, 18 is larger than threshold 250)
+[2017.04.30-11.45.29:043][214]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (260, 10 is larger than threshold 250)
+[2017.04.30-11.45.29:053][215]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (254, 12 is larger than threshold 250)
+[2017.04.30-11.45.30:983][417]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (260, 22 is larger than threshold 250)
+[2017.04.30-11.45.30:984][417]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (268, 18 is larger than threshold 250)
+[2017.04.30-11.45.30:993][418]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (264, 14 is larger than threshold 250)
+[2017.04.30-11.45.31:003][419]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (278, 10 is larger than threshold 250)
+[2017.04.30-11.45.31:013][420]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (282, 8 is larger than threshold 250)
+[2017.04.30-11.45.31:023][421]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (286, 0 is larger than threshold 250)
+[2017.04.30-11.45.31:033][422]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (296, -2 is larger than threshold 250)
+[2017.04.30-11.45.31:033][422]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (296, -6 is larger than threshold 250)
+[2017.04.30-11.45.31:043][423]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (292, -10 is larger than threshold 250)
+[2017.04.30-11.45.31:058][424]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (286, -12 is larger than threshold 250)
+[2017.04.30-11.45.31:059][424]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (310, -18 is larger than threshold 250)
+[2017.04.30-11.45.31:349][454]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-252, 16 is larger than threshold 250)
+[2017.04.30-11.45.31:358][455]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-268, 14 is larger than threshold 250)
+[2017.04.30-11.45.31:370][456]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-280, 16 is larger than threshold 250)
+[2017.04.30-11.45.31:380][457]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-294, 14 is larger than threshold 250)
+[2017.04.30-11.45.31:380][457]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-312, 14 is larger than threshold 250)
+[2017.04.30-11.45.31:390][458]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-324, 12 is larger than threshold 250)
+[2017.04.30-11.45.31:399][459]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-330, 8 is larger than threshold 250)
+[2017.04.30-11.45.31:409][460]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-340, 6 is larger than threshold 250)
+[2017.04.30-11.45.31:423][461]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-332, 2 is larger than threshold 250)
+[2017.04.30-11.45.31:424][461]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-330, 6 is larger than threshold 250)
+[2017.04.30-11.45.31:433][462]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-322, -2 is larger than threshold 250)
+[2017.04.30-11.45.31:444][463]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-310, -4 is larger than threshold 250)
+[2017.04.30-11.45.31:444][463]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-290, -8 is larger than threshold 250)
+[2017.04.30-11.45.31:453][464]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-274, -8 is larger than threshold 250)
+[2017.04.30-11.45.31:463][465]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (-256, -8 is larger than threshold 250)
+[2017.04.30-11.45.44:454][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.44:509][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.45.44:527][839]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.45.55:273][642]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.46.28:821][768]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.46.40:833][394]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.46.40:952][396]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.46.45:094][526]BlueprintLog: New page: Compile mausmode
+[2017.04.30-11.46.47:583][597]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.46.47:597][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.46.47:597][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.46.47:597][597]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:46:47 PM)
+[2017.04.30-11.46.47:597][597]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.46.47:600][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002289s)
+[2017.04.30-11.46.47:600][597]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.46.47:600][597]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.04.30-11.46.47:600][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003121s)
+[2017.04.30-11.46.47:621][597]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.46.47:622][597]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.46.47:622][597]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.46.47:622][597]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.46.47:622][597]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.46.47:622][597]LogInit: FAudioDevice initialized.
+[2017.04.30-11.46.47:659][597]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.46.47:661][597]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.46.47
+[2017.04.30-11.46.47:661][597]LogWorld: Bringing up level for play took: 0.001186
+[2017.04.30-11.46.47:663][597]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.067
+[2017.04.30-11.46.47:663][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.46.57:086][916]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.46.57:143][916]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.46.57:162][916]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.46.58:495][957]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.46.58:508][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.46.58:508][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.46.58:508][957]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:46:58 PM)
+[2017.04.30-11.46.58:508][957]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.46.58:510][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002029s)
+[2017.04.30-11.46.58:511][957]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.46.58:511][957]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.04.30-11.46.58:511][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002954s)
+[2017.04.30-11.46.58:532][957]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.46.58:533][957]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.46.58:533][957]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.46.58:533][957]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.46.58:533][957]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.46.58:533][957]LogInit: FAudioDevice initialized.
+[2017.04.30-11.46.58:564][957]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.46.58:566][957]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.46.58
+[2017.04.30-11.46.58:566][957]LogWorld: Bringing up level for play took: 0.001180
+[2017.04.30-11.46.58:567][957]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.061
+[2017.04.30-11.46.58:568][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.47.02:486][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.47.02:539][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.47.02:559][ 89]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.47.06:526][271]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.03:776][ 38]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.24:096][628]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.32:881][197]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.34:299][237]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.35:334][266]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.35:829][279]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.38:119][326]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.40:422][391]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.48.51:530][146]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.04.30-11.48.57:365][593]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.49.42:555][393]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.49.45:336][465]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.50.39:047][ 85]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.50.50:800][443]BlueprintLog: New page: Compile Maus
+[2017.04.30-11.50.51:543][458]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.50.51:545][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maus" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maus.uasset" SILENT=true
+[2017.04.30-11.50.51:563][458]LogSavePackage: Save=6.91ms
+[2017.04.30-11.50.51:563][458]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/MausBCBCFCA033040D1E0032022C73FEDACC.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maus.uasset'
+[2017.04.30-11.50.51:563][458]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maus.uasset
+[2017.04.30-11.50.53:287][505]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.50.53:290][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.50.53:410][505]LogSavePackage: Save=96.04ms
+[2017.04.30-11.50.53:410][505]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMapBCCCE20235040D1E0032017B741AB6E5.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.50.53:410][505]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.50.54:249][528]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.50.54:264][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.50.54:264][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.50.54:265][528]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:50:54 PM)
+[2017.04.30-11.50.54:265][528]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.50.54:267][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002227s)
+[2017.04.30-11.50.54:267][528]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.50.54:268][528]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2017.04.30-11.50.54:268][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003173s)
+[2017.04.30-11.50.54:322][528]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.50.54:322][528]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.50.54:323][528]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.50.54:323][528]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.50.54:323][528]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.50.54:323][528]LogInit: FAudioDevice initialized.
+[2017.04.30-11.50.54:351][528]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.50.54:354][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.50.54
+[2017.04.30-11.50.54:354][528]LogWorld: Bringing up level for play took: 0.001286
+[2017.04.30-11.50.54:355][528]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.094
+[2017.04.30-11.50.54:355][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.50.58:913][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.50.59:045][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.50.59:065][674]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.51.17:035][224]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-11.51.17:119][226]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.51.22:685][396]BlueprintLog: New page: Compile Maus
+[2017.04.30-11.51.24:348][439]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-11.51.24:363][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.51.24:363][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-11.51.24:363][439]PIE: New page: PIE session: NewMap (Apr 30, 2017, 3:51:24 PM)
+[2017.04.30-11.51.24:364][439]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.04.30-11.51.24:366][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002248s)
+[2017.04.30-11.51.24:366][439]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-11.51.24:367][439]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.04.30-11.51.24:367][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003163s)
+[2017.04.30-11.51.24:415][439]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.04.30-11.51.24:416][439]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.04.30-11.51.24:416][439]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.04.30-11.51.24:416][439]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.04.30-11.51.24:416][439]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.04.30-11.51.24:417][439]LogInit: FAudioDevice initialized.
+[2017.04.30-11.51.24:444][439]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-11.51.24:446][439]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.04.30-13.51.24
+[2017.04.30-11.51.24:446][439]LogWorld: Bringing up level for play took: 0.001188
+[2017.04.30-11.51.24:448][439]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.088
+[2017.04.30-11.51.24:448][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.51.26:803][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.51.26:931][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Maps/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Maps/NewMap.NewMap:PersistentLevel.NewMap'
+[2017.04.30-11.51.26:952][514]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-11.51.29:159][576]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-11.51.29:242][578]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.53.10:779][840]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.53.31:061][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.30-11.53.34:432][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.30-11.53.34:892][643]LogEditorViewport: Clicking on Actor (LMB): Cone_Actor_Blueprint_C (Cone_Actor_Blueprint)
+[2017.04.30-11.53.35:695][710]LogEditorViewport: Clicking Background
+[2017.04.30-11.53.37:541][864]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.54.21:601][695]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.04.30-11.54.23:805][844]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.54.58:707][334]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.55.00:041][411]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.55.18:518][714]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.55.18:999][744]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.55.37:095][ 47]BlueprintLog: New page: Compile NewMap
+[2017.04.30-11.55.54:851][363]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.12:846][660]LogEditorViewport: Clicking on Actor (LMB): Cone_Actor_Blueprint_C (Cone_Actor_Blueprint)
+[2017.04.30-11.56.14:615][811]Cmd: ACTOR SELECT ALL
+[2017.04.30-11.56.15:582][888]Cmd: SELECT NONE
+[2017.04.30-11.56.22:152][428]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.26:596][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.26:634][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.28:657][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.56.28:698][790]LogSavePackage:Warning: Obj in another map: Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint
+[2017.04.30-11.56.28:735][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.33:564][790]LogSavePackage:Warning: 
+Referencers of Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint:
+[2017.04.30-11.56.33:633][790]LogSavePackage:Warning: 	K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0 (1 refs)
+[2017.04.30-11.56.33:633][790]LogSavePackage:Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner
+[2017.04.30-11.56.33:633][790]LogSavePackage:Warning: 	K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2 (1 refs)
+[2017.04.30-11.56.33:633][790]LogSavePackage:Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner
+[2017.04.30-11.56.33:633][790]LogSavePackage:Warning: 	K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29 (1 refs)
+[2017.04.30-11.56.33:633][790]LogSavePackage:Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner
+[2017.04.30-11.56.33:675][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.34:729][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cone_Actor_Blueprint" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset" SILENT=true
+[2017.04.30-11.56.34:762][790]LogSavePackage:Warning: Obj in another map: Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint
+[2017.04.30-11.56.34:798][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.35:298][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.36:568][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-11.56.36:699][790]LogSavePackage: Save=102.55ms
+[2017.04.30-11.56.36:699][790]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/NewMapC5F502F424040D1E0038029A8890D448.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap'
+[2017.04.30-11.56.36:699][790]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+[2017.04.30-11.56.36:714][790]LogFileHelpers: Saving map 'NewMap' took 0.158
+[2017.04.30-11.56.36:714][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maus" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maus.uasset" SILENT=true
+[2017.04.30-11.56.36:722][790]LogSavePackage: Save=6.74ms
+[2017.04.30-11.56.36:722][790]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/MausC5F88AB724040D1E003802CC889191FD.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maus.uasset'
+[2017.04.30-11.56.36:723][790]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maus.uasset
+[2017.04.30-11.56.36:723][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mausmode" FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/mausmode.uasset" SILENT=true
+[2017.04.30-11.56.36:732][790]LogSavePackage: Save=7.11ms
+[2017.04.30-11.56.36:732][790]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Saved/mausmodeC5FA871124040D1E003802D58891BD4B.tmp' to '../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/mausmode.uasset'
+[2017.04.30-11.56.36:733][790]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/mausmode.uasset
+[2017.04.30-11.56.36:734][790]EditorErrors: New page: Save Output
+[2017.04.30-11.56.36:734][790]EditorErrors:Warning: Warning Object 'Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint' is in another map
+[2017.04.30-11.56.36:734][790]EditorErrors:Warning: Warning Can't save ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset: Graph is linked to object Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint (EventOwner) in external map
+[2017.04.30-11.56.36:734][790]EditorErrors:Warning: Warning Object 'Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint' is in another map
+[2017.04.30-11.56.36:734][790]EditorErrors:Warning: Warning Can't save ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Cone_Actor_Blueprint.uasset: Graph is linked to object Unknown in external map
+[2017.04.30-11.56.36:772][790]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-11.56.37:548][790]Cmd: MAP LOAD FILE="../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-11.56.37:549][790]LightingResults: New page: Lighting Build
+[2017.04.30-11.56.37:552][790]LoadErrors: New page: Loading map: NewMap.umap
+[2017.04.30-11.56.37:598][790]MapCheck: New page: Map Check
+[2017.04.30-11.56.37:598][790]LightingResults: New page: Lighting Build
+[2017.04.30-11.56.37:618][790]LogReferenceChain: Searching referencers for NewMap. This may take several minutes.
+[2017.04.30-11.56.37:991][790]LogReferenceChain: Generating reference graph ...
+[2017.04.30-11.56.37:996][790]LogReferenceChain: Level 0 has 8 nodes ...
+[2017.04.30-11.56.38:006][790]LogReferenceChain: Level 1 added 25 nodes ...
+[2017.04.30-11.56.38:016][790]LogReferenceChain: Level 2 added 50 nodes ...
+[2017.04.30-11.56.38:025][790]LogReferenceChain: Level 3 added 68 nodes ...
+[2017.04.30-11.56.38:035][790]LogReferenceChain: Level 4 added 30 nodes ...
+[2017.04.30-11.56.38:044][790]LogReferenceChain: Level 5 added 19 nodes ...
+[2017.04.30-11.56.38:054][790]LogReferenceChain: Level 6 added 0 nodes ...
+[2017.04.30-11.56.38:054][790]LogReferenceChain: Generating reference chains ...
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   
+[2017.04.30-11.56.38:054][790]LogReferenceChain: External Referencers:
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   
+[2017.04.30-11.56.38:054][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0->EventOwner
+[2017.04.30-11.56.38:054][790]LogReferenceChain:     Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:054][790]LogReferenceChain:       Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:054][790]LogReferenceChain:         (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   
+[2017.04.30-11.56.38:054][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2->EventOwner
+[2017.04.30-11.56.38:054][790]LogReferenceChain:     Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:054][790]LogReferenceChain:       Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:054][790]LogReferenceChain:         (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   
+[2017.04.30-11.56.38:054][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29->EventOwner
+[2017.04.30-11.56.38:054][790]LogReferenceChain:     Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:054][790]LogReferenceChain:       Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:054][790]LogReferenceChain:         (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   
+[2017.04.30-11.56.38:054][790]LogReferenceChain: (standalone) Blueprint /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint->LastEditedDocuments
+[2017.04.30-11.56.38:054][790]LogReferenceChain:   EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:055][790]LogReferenceChain:     K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29->EventOwner
+[2017.04.30-11.56.38:055][790]LogReferenceChain:       Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:         Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:055][790]LogReferenceChain:           (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   
+[2017.04.30-11.56.38:055][790]LogReferenceChain: (standalone) Blueprint /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint->LastEditedDocuments
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:055][790]LogReferenceChain:     K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2->EventOwner
+[2017.04.30-11.56.38:055][790]LogReferenceChain:       Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:         Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:055][790]LogReferenceChain:           (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   
+[2017.04.30-11.56.38:055][790]LogReferenceChain: (standalone) Blueprint /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint->LastEditedDocuments
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:055][790]LogReferenceChain:     K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0->EventOwner
+[2017.04.30-11.56.38:055][790]LogReferenceChain:       Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:         Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:055][790]LogReferenceChain:           (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   
+[2017.04.30-11.56.38:055][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_0->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:055][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29->EventOwner
+[2017.04.30-11.56.38:055][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:055][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   
+[2017.04.30-11.56.38:055][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_0->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:055][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2->EventOwner
+[2017.04.30-11.56.38:055][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:055][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   
+[2017.04.30-11.56.38:055][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:055][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_0->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:055][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0->EventOwner
+[2017.04.30-11.56.38:055][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:055][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:055][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   
+[2017.04.30-11.56.38:056][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_1->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:056][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29->EventOwner
+[2017.04.30-11.56.38:056][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:056][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   
+[2017.04.30-11.56.38:056][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_1->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:056][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2->EventOwner
+[2017.04.30-11.56.38:056][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:056][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   
+[2017.04.30-11.56.38:056][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_1->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:056][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0->EventOwner
+[2017.04.30-11.56.38:056][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:056][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   
+[2017.04.30-11.56.38:056][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_2->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:056][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_29->EventOwner
+[2017.04.30-11.56.38:056][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:056][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   
+[2017.04.30-11.56.38:056][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_2->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:056][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_2->EventOwner
+[2017.04.30-11.56.38:056][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:056][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   
+[2017.04.30-11.56.38:056][790]LogReferenceChain: (root) GCObjectReferencer /Engine/Transient.GCObjectReferencer_0->[Callstack] 0x00007f5d8d0247b0 
+[2017.04.30-11.56.38:056][790]LogReferenceChain:   K2Node_Event /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_Event_2->Outer
+[2017.04.30-11.56.38:056][790]LogReferenceChain:     EdGraph /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph->Nodes
+[2017.04.30-11.56.38:057][790]LogReferenceChain:       K2Node_ActorBoundEvent /Game/Cone_Actor_Blueprint.Cone_Actor_Blueprint:EventGraph.K2Node_ActorBoundEvent_0->EventOwner
+[2017.04.30-11.56.38:057][790]LogReferenceChain:         Cone_Actor_Blueprint_C /Game/Maps/NewMap.NewMap:PersistentLevel.Cone_Actor_Blueprint->Outer
+[2017.04.30-11.56.38:057][790]LogReferenceChain:           Level /Game/Maps/NewMap.NewMap:PersistentLevel->OwningWorld
+[2017.04.30-11.56.38:057][790]LogReferenceChain:             (target) World /Game/Maps/NewMap.NewMap
+[2017.04.30-11.56.38:192][790]LogLinux:Error: appError called: Assertion failed: Assertion failed:  [File:/usr/local/share/UE/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp] [Line: 1959] 
+/Game/Maps/NewMap.NewMap still around trying to load ../../../../../../../../home/newgen/UnrealProjects/ServerClick/Content/Maps/NewMap.umap
+   (Object is not currently rooted)
+
+
