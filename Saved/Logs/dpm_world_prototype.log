@@ -691,3 +691,307 @@ LogInit: Object subsystem initialized
 [2017.04.30-16.05.04:072][290]SourceControl: Info Commited [master (Basis-Commit) c27b88a] initial commit.
 [2017.04.30-16.05.04:095][292]LogLinux: Done sending crash report for ensure().
 [2017.04.30-16.05.04:272][307]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.13.39:897][139]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.13.42:660][432]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.13.44:676][507]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.13.44:732][507]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.24:938][812]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.25:651][878]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.27:979][121]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.28:940][215]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.29:008][218]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.33:270][553]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.33:740][606]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.44:200][339]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.46:872][451]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.47:425][451]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.47:428][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-16.14.47:536][451]LogSavePackage: Save=88.22ms
+[2017.04.30-16.14.47:536][451]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Saved/NewMap0BADF36E2F04121E000E01F123E421DB.tmp' to '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Content/Maps/NewMap.umap'
+[2017.04.30-16.14.47:537][451]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Content/Maps/NewMap.umap
+[2017.04.30-16.14.48:496][511]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.52:498][958]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.14.54:477][ 72]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.14.54:529][ 72]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.15.05:021][ 72]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.15.05:566][ 72]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.15.06:095][ 72]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.04.30-16.15.06:593][ 72]SourceControl: Info [master 65865ee] added test asset
+[2017.04.30-16.15.06:593][ 72]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.04.30-16.15.06:611][ 72]SourceControl: Info Commited [master 65865ee] added test asset.
+[2017.04.30-16.15.06:824][ 88]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.22.02:706][857]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.22.05:595][137]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.22.07:839][383]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.24.38:390][282]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-16.24.38:708][283]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.24.47:138][881]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.24.47:157][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.019
+[2017.04.30-16.24.47:159][881]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Git_Commit_test] ([1] browsable assets)...
+[2017.04.30-16.24.47:205][881]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Git_Commit_test.Git_Commit_test]
+[2017.04.30-16.24.47:205][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/Git_Commit_test]
+[2017.04.30-16.24.47:231][881]LogSavePackage: Save=25.03ms
+[2017.04.30-16.24.47:232][881]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Saved/Git_Commit_test_Auto10BB35E512F04121E001800CE47A2FA52.tmp' to '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Saved/Autosaves/Game/Git_Commit_test_Auto1.uasset'
+[2017.04.30-16.24.47:232][881]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Saved/Autosaves/Game/Git_Commit_test_Auto1.uasset
+[2017.04.30-16.24.47:232][881]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.04.30-16.29.05:167][245]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.07:763][529]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.09:706][641]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.29.09:764][641]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.22:630][980]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.24:631][195]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.27:898][544]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.28:449][544]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.28:494][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Git_Commit_test" FILE="../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Content/Git_Commit_test.uasset" SILENT=true
+[2017.04.30-16.29.28:528][544]LogSavePackage: Save=23.79ms
+[2017.04.30-16.29.28:528][544]LogSavePackage: Moving '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Saved/Git_Commit_test0C10087B1C04121E001D01F858674601.tmp' to '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Content/Git_Commit_test.uasset'
+[2017.04.30-16.29.28:529][544]LogSavePackage:Display: Finished SavePackage ../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/Content/Git_Commit_test.uasset
+[2017.04.30-16.29.28:568][544]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.29:617][544]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.40:014][789]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.41:232][901]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.43:213][ 19]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../../../home/newgen/UnrealProjects/dpm_world_prototype/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.29.43:277][ 19]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.45:928][ 19]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.46:474][ 19]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.29.46:982][ 19]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.04.30-16.29.47:480][ 19]SourceControl: Info [master 9447547] test
+[2017.04.30-16.29.47:480][ 19]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.04.30-16.29.47:480][ 19]SourceControl: Info  create mode 100644 Content/Git_Commit_test.uasset
+[2017.04.30-16.29.47:500][ 19]SourceControl: Info Commited [master 9447547] test.
+[2017.04.30-16.29.47:744][ 29]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.30.08:185][193]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.30.08:758][248]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.30.17:608][213]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.30.29:874][293]LogLinux: Setting swap interval to 'Immediate'
+[2017.04.30-16.46.41:819][891]Cmd: QUIT_EDITOR
+[2017.04.30-16.46.41:864][891]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.04.30-16.46.42:351][891]LogExit: Preparing to exit.
+[2017.04.30-16.46.42:807][891]LogExit: Editor shut down
+[2017.04.30-16.46.42:808][891]LogExit: Transaction tracking system shut down
+[2017.04.30-16.46.42:906][891]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.30-16.46.42:906][891]LogExit: Object subsystem successfully closed.
+[2017.04.30-16.46.42:965][891]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (440)
+[2017.04.30-16.46.42:965][891]LogModuleManager: Shutting down and abandoning module CrashTracker (438)
+[2017.04.30-16.46.42:965][891]LogModuleManager: Shutting down and abandoning module SceneOutliner (436)
+[2017.04.30-16.46.42:965][891]LogModuleManager: Shutting down and abandoning module AddContentDialog (434)
+[2017.04.30-16.46.42:967][891]LogModuleManager: Shutting down and abandoning module WidgetCarousel (433)
+[2017.04.30-16.46.42:967][891]LogModuleManager: Shutting down and abandoning module EditorWidgets (430)
+[2017.04.30-16.46.42:967][891]LogModuleManager: Shutting down and abandoning module CollectionManager (428)
+[2017.04.30-16.46.42:967][891]LogModuleManager: Shutting down and abandoning module StatsViewer (426)
+[2017.04.30-16.46.42:967][891]LogModuleManager: Shutting down and abandoning module FoliageEdit (424)
+[2017.04.30-16.46.42:967][891]LogModuleManager: Shutting down and abandoning module LandscapeEditor (422)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (420)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module ActorPickerMode (418)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module GeometryMode (416)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module TextureAlignMode (414)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module BspMode (412)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module HardwareSurvey (410)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (408)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module SequenceRecorder (406)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module AutomationWorker (404)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module CharacterAI (402)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (400)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (398)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (396)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (394)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module MfMediaFactory (392)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module MfMediaEditor (390)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (388)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module Media (387)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (384)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (382)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module PlacementMode (381)
+[2017.04.30-16.46.42:968][891]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (378)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module SmartSnapping (376)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module SessionServices (374)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module ViewportSnapping (372)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module ViewportInteraction (370)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module LogVisualizer (368)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module IntroTutorials (366)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (365)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (362)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (360)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (358)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (356)
+[2017.04.30-16.46.42:969][891]LogModuleManager: Shutting down and abandoning module TcpMessaging (355)
+[2017.04.30-16.46.43:069][891]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (353)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (350)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (348)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module InputBindingEditor (346)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module NiagaraEditor (344)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module MergeActors (342)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module SizeMap (340)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module TreeMap (338)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module ReferenceViewer (336)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (334)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module LocalizationService (333)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module HardwareTargeting (330)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (328)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module UndoHistory (326)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module UserFeedback (324)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module XmlParser (322)
+[2017.04.30-16.46.43:998][891]LogModuleManager: Shutting down and abandoning module Blutility (320)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (318)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (317)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (314)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module SettingsEditor (312)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module ProjectLauncher (310)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module SessionFrontend (308)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module ProfilerClient (306)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module DeviceManager (304)
+[2017.04.30-16.46.43:999][891]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (303)
+[2017.04.30-16.46.44:009][891]LogModuleManager: Shutting down and abandoning module AutomationController (300)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module AutomationWindow (298)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module Layers (296)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (294)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module DetailCustomizations (292)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module PackagesDialog (290)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module Persona (288)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module AnimGraph (287)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module Kismet (284)
+[2017.04.30-16.46.44:010][891]LogModuleManager: Shutting down and abandoning module GraphEditor (282)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module ClassViewer (280)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module Toolbox (278)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module ModuleUI (276)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module MovieSceneTools (274)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module OutputLog (272)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module GammaUI (270)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module Documentation (268)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module Niagara (262)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (260)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module AnalyticsET (258)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module PortalServices (256)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module AIModule (250)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module GameplayDebugger (249)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module AITestSuite (247)
+[2017.04.30-16.46.44:011][891]LogModuleManager: Shutting down and abandoning module ProfilerService (244)
+[2017.04.30-16.46.44:199][891]LogModuleManager: Shutting down and abandoning module TaskGraph (242)
+[2017.04.30-16.46.44:199][891]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (240)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (238)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (236)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module DesktopPlatform (235)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module GitSourceControl (230)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (228)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module SourceControl (227)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module UObjectPlugin (224)
+[2017.04.30-16.46.44:200][891]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (220)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (218)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (216)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module SuperSearch (215)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module EpicSurvey (212)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module PluginBrowser (210)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (208)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (206)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (204)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (202)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (200)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module CableComponent (198)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (196)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (194)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (192)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module Paper2DEditor (190)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module MeshPaint (189)
+[2017.04.30-16.46.44:201][891]LogModuleManager: Shutting down and abandoning module LevelEditor (187)
+[2017.04.30-16.46.44:202][891]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (186)
+[2017.04.30-16.46.44:203][891]LogModuleManager: Shutting down and abandoning module MainFrame (184)
+[2017.04.30-16.46.44:203][891]LogModuleManager: Shutting down and abandoning module HotReload (183)
+[2017.04.30-16.46.44:203][891]LogModuleManager: Shutting down and abandoning module ContentBrowser (179)
+[2017.04.30-16.46.44:204][891]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (176)
+[2017.04.30-16.46.44:204][891]LogModuleManager: Shutting down and abandoning module UdpMessaging (174)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (172)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (170)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module FacialAnimation (168)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (166)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (164)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module PhysXVehicles (162)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (160)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module Paper2D (158)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module VREditor (152)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module UMG (142)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
+[2017.04.30-16.46.44:305][891]LogModuleManager: Shutting down and abandoning module Sequencer (140)
+[2017.04.30-16.46.44:306][891]LogModuleManager: Shutting down and abandoning module AssetTools (138)
+[2017.04.30-16.46.44:306][891]LogModuleManager: Shutting down and abandoning module MessageLog (137)
+[2017.04.30-16.46.44:306][891]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
+[2017.04.30-16.46.44:306][891]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
+[2017.04.30-16.46.44:306][891]LogModuleManager: Shutting down and abandoning module Slate (128)
+[2017.04.30-16.46.44:306][891]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module Messaging (124)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module ALAudio (118)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module Networking (116)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module Core (112)
+[2017.04.30-16.46.44:309][891]LogModuleManager: Shutting down and abandoning module AssetRegistry (110)
+[2017.04.30-16.46.44:445][891]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (109)
+[2017.04.30-16.46.44:446][891]LogModuleManager: Shutting down and abandoning module KismetCompiler (106)
+[2017.04.30-16.46.44:446][891]LogModuleManager: Shutting down and abandoning module PhysXFormats (104)
+[2017.04.30-16.46.44:446][891]LogModuleManager: Shutting down and abandoning module MeshUtilities (102)
+[2017.04.30-16.46.44:447][891]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (101)
+[2017.04.30-16.46.44:447][891]LogModuleManager: Shutting down and abandoning module PropertyEditor (99)
+[2017.04.30-16.46.44:447][891]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
+[2017.04.30-16.46.44:485][891]LogDerivedDataCache: Shutdown
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (93)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (91)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module ImageWrapper (90)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (87)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (85)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (83)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (81)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (77)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (75)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (73)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (71)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (69)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (67)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (65)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (63)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (61)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (59)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (57)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (55)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (53)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (51)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (49)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module Settings (44)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.30-16.46.44:485][891]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.30-16.46.44:486][891]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.30-16.46.44:486][891]LogModuleManager: Shutting down and abandoning module HTTP (37)
+[2017.04.30-16.46.44:486][891]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.30-16.46.44:486][891]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B065D0D73-1104-121E-0004-0167FE550510%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.0-0%2B%2B%2BUE4%2BRelease-4.15&UserID=0003f14e24021712002c018ddb909009%7C%7Cf11e1258d9c372b17d9263845502c98b&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2017.04.30-16.46.44:490][891]LogModuleManager: Shutting down and abandoning module SSL (36)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (32)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (30)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module AudioEditor (28)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module TextureCompressor (26)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module ShaderCore (24)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module Landscape (22)
+[2017.04.30-16.46.44:491][891]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (20)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module OpenGLDrv (18)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.30-16.46.44:493][891]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.30-16.46.44:494][891]LogExit: Exiting.
+[2017.04.30-16.46.44:494][891]LogInit: Tearing down SDL.
+[2017.04.30-16.46.44:502][891]Log file closed, 04/30/17 18:46:44
