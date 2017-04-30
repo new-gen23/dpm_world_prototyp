@@ -1,0 +1,758 @@
+﻿Log file open, 04/30/17 18:18:05
+LogInit:Display: Running engine for game: dpm_world_prototype
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-122476293) SRandInit(-122476293).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075223
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.30-16.18.07:281][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-16.18.07:281][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.30-16.18.07:291][  0]LogInit: Computer: LIKEABOSS
+[2017.04.30-16.18.07:291][  0]LogInit: User: Boss
+[2017.04.30-16.18.07:291][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.30-16.18.07:291][  0]LogInit: High frequency timer resolution =2.338369 MHz
+[2017.04.30-16.18.07:291][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.04.30-16.18.07:291][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-16.18.07:291][  0]LogMemory: Process Physical Memory: 264.52 MB used, 264.52 MB peak
+[2017.04.30-16.18.07:291][  0]LogMemory: Process Virtual Memory: 265.63 MB used, 265.63 MB peak
+[2017.04.30-16.18.07:291][  0]LogMemory: Physical Memory: 7188.76 MB used,  25528.79 MB free, 32717.54 MB total
+[2017.04.30-16.18.07:291][  0]LogMemory: Virtual Memory: 632.89 MB used,  25528.79 MB free, 8388608.00 MB total
+[2017.04.30-16.18.07:426][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.30-16.18.08:319][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.30-16.18.08:887][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780M' (Feature Level 11_0)
+[2017.04.30-16.18.08:887][  0]LogD3D11RHI:       4027/0/16102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.30-16.18.08:887][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.30-16.18.08:892][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.30-16.18.08:892][  0]LogD3D11RHI:     GPU DeviceId: 0x119f (for the marketing name, search the web for "GPU Device Id")
+[2017.04.30-16.18.08:892][  0]LogWindows: EnumDisplayDevices:
+[2017.04.30-16.18.08:892][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780M' (P:1 D:1)
+[2017.04.30-16.18.08:893][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780M' (P:0 D:1)
+[2017.04.30-16.18.08:893][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:893][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:894][  0]LogWindows:    4. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:894][  0]LogWindows:    5. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:894][  0]LogWindows:    6. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:895][  0]LogWindows:    7. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:895][  0]LogWindows:    8. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:895][  0]LogWindows:    9. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.04.30-16.18.08:896][  0]LogWindows:    10. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.30-16.18.08:896][  0]LogWindows:    11. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.30-16.18.08:896][  0]LogWindows:    12. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.30-16.18.08:896][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:10 
+[2017.04.30-16.18.08:896][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780M
+[2017.04.30-16.18.08:896][  0]LogD3D11RHI:   Driver Version: 378.78 (internal:21.21.13.7878, unified:378.78)
+[2017.04.30-16.18.08:896][  0]LogD3D11RHI:      Driver Date: 2-23-2017
+[2017.04.30-16.18.08:896][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.30-16.18.09:431][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.30-16.18.09:433][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.30-16.18.09:467][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.30-16.18.09:561][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/_project_storage/UNREAL/dpm_world_prototyp/Intermediate/Shaders/WorkingDirectory/3088/).
+[2017.04.30-16.18.09:561][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Boss/AppData/Local/Temp/UnrealShaderWorkingDir/8B5F4B1A4F0AE406EBBD978CB9DD2293/'.
+[2017.04.30-16.18.09:561][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.30-16.18.10:988][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.30-16.18.11:073][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.30-16.18.11:154][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.30-16.18.11:236][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.30-16.18.11:319][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.30-16.18.11:400][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.30-16.18.11:483][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.30-16.18.11:565][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.30-16.18.11:639][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.30-16.18.11:722][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.30-16.18.11:805][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.30-16.18.11:887][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.30-16.18.11:967][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.30-16.18.12:050][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.30-16.18.12:133][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.30-16.18.12:297][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.30-16.18.12:297][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.30-16.18.12:362][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.30-16.18.12:500][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.30-16.18.12:548][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.30-16.18.12:631][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.30-16.18.12:712][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.30-16.18.12:794][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.30-16.18.12:877][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.30-16.18.12:878][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.30-16.18.13:559][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.30-16.18.13:607][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Boss/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.30-16.18.13:608][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Boss/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.30-16.18.13:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/_project_storage/UNREAL/dpm_world_prototyp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.30-16.18.13:608][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.30-16.18.13:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/_project_storage/UNREAL/dpm_world_prototyp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.30-16.18.13:608][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.30-16.18.13:627][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.30-16.18.13:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Boss/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.30-16.18.13:648][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.30-16.18.13:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-16.18.13:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-16.18.14:012][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-16.18.14:015][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.30-16.18.14:307][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.30-16.18.14:379][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.30-16.18.14:448][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.30-16.18.14:448][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.30-16.18.14:448][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.30-16.18.15:099][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: dpm_world_prototype, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 914774774
+[2017.04.30-16.18.15:155][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2017.04.30-16.18.15:199][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.009996 seconds
+[2017.04.30-16.18.15:204][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.30-16.18.15:204][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.30-16.18.15:204][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.30-16.18.15:307][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.30-16.18.18:290][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.30-16.18.18:338][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.30-16.18.19:006][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.30-16.18.19:568][  0]SourceControl: Info Source control is disabled
+[2017.04.30-16.18.19:569][  0]SourceControl: Info Source control is disabled
+[2017.04.30-16.18.19:642][  0]SourceControl: Info Source control is disabled
+[2017.04.30-16.18.19:713][  0]SourceControl: Info Source control is disabled
+[2017.04.30-16.18.21:607][  0]LogEngine: Initializing Engine...
+[2017.04.30-16.18.21:608][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.30-16.18.21:935][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.30-16.18.21:947][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-16.18.22:029][  0]LogInit: FAudioDevice initialized.
+[2017.04.30-16.18.22:053][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Boss/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.30-16.18.22:056][  0]LogInit: Texture streaming: Enabled
+[2017.04.30-16.18.22:202][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.30-16.18.22:341][  0]LogInit: Transaction tracking system initialized
+[2017.04.30-16.18.22:904][  0]BlueprintLog: New page: Editor Load
+[2017.04.30-16.18.24:340][  0]LocalizationService: Info Localization service is disabled
+[2017.04.30-16.18.25:498][  0]LogConsoleResponse:Display: 
+[2017.04.30-16.18.25:674][  0]LogFileCache: Scanning file cache for directory 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/' took 0.01s
+[2017.04.30-16.18.25:674][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.30-16.18.25:674][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.30-16.18.27:294][  0]SourceControl: Info Source control is disabled
+[2017.04.30-16.18.27:294][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-16.18.27:295][  0]LightingResults: New page: Lighting Build
+[2017.04.30-16.18.27:365][  0]MapCheck: New page: Map Check
+[2017.04.30-16.18.27:366][  0]LightingResults: New page: Lighting Build
+[2017.04.30-16.18.27:567][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-16.18.27:584][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-16.18.27:588][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-16.18.27:591][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-16.18.27:695][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.836ms to complete.
+[2017.04.30-16.18.27:695][  0]LogFileHelpers: Loading map 'Template_Default' took 0.401
+[2017.04.30-16.18.27:911][  0]LogCollectionManager: Loaded 0 collections in 0.001129 seconds
+[2017.04.30-16.18.28:018][  0]LogFileCache: Scanning file cache for directory 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/Collections/' took 0.01s
+[2017.04.30-16.18.28:018][  0]LogFileCache: Scanning file cache for directory 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Developers/Boss/Collections/' took 0.01s
+[2017.04.30-16.18.28:018][  0]LogFileCache: Scanning file cache for directory 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/' took 0.01s
+[2017.04.30-16.18.28:018][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.30-16.18.28:027][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2245 classes and 453 folders.
+[2017.04.30-16.18.28:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.30-16.18.28:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.30-16.18.28:132][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.30-16.18.28:202][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.30-16.18.28:269][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.30-16.18.28:378][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.30-16.18.28:383][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.30-16.18.28:471][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.30-16.18.28:472][  0]LogLoad: (Engine Initialization) Total time: 23.65 seconds
+[2017.04.30-16.18.28:472][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.04.30-16.18.28:472][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.30-16.18.28:489][  0]LogOcInput: OculusInput pre-init called
+[2017.04.30-16.18.28:510][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.30-16.18.28:512][  0]LogSlate: Took 0.000630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-16.18.28:516][  0]LogSlate: Took 0.000695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.30-16.18.28:521][  0]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.30-16.18.28:634][  0]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-16.18.28:688][  0]LogRenderer: Reallocating scene render targets to support 1056x516 NumSamples 1 (Frame:2).
+[2017.04.30-16.18.28:806][  1]LogAssetRegistry: Asset discovery search completed in 13.6712 seconds
+[2017.04.30-16.18.28:806][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.04.30-16.18.28:806][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.04.30-16.18.29:503][ 38]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-16.18.44:256][902]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.30-16.19.31:616][458]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.30-16.19.44:765][230]SourceControl: Info Source control is disabled
+[2017.04.30-16.20.20:737][577]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.30-16.20.28:578][ 32]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.30-16.25.21:330][369]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.30-16.27.01:736][995]SourceControl: Info On branch master
+[2017.04.30-16.27.01:736][995]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.04.30-16.27.01:736][995]SourceControl: Info Changes not staged for commit:
+[2017.04.30-16.27.01:736][995]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.30-16.27.01:736][995]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	deleted:    Saved/Logs/MyProject-backup-2017.04.30-14.02.17.log
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	deleted:    Saved/Logs/MyProject-backup-2017.04.30-16.38.45.log
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	modified:   Saved/Logs/dpm_world_prototype.log
+[2017.04.30-16.27.01:736][995]SourceControl: Info Untracked files:
+[2017.04.30-16.27.01:736][995]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	Saved/Logs/UE4CC-Windows-1AFBAA57470E592BF68400ADA609F1F4/
+[2017.04.30-16.27.01:736][995]SourceControl: Info 	Saved/Logs/dpm_world_prototype-backup-2017.04.30-18.18.05.log
+[2017.04.30-16.27.01:736][995]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.04.30-16.27.21:134][128]SourceControl: Info On branch master
+[2017.04.30-16.27.21:134][128]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.04.30-16.27.21:134][128]SourceControl: Info Changes not staged for commit:
+[2017.04.30-16.27.21:134][128]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.30-16.27.21:134][128]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	deleted:    Saved/Logs/MyProject-backup-2017.04.30-14.02.17.log
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	deleted:    Saved/Logs/MyProject-backup-2017.04.30-16.38.45.log
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	modified:   Saved/Logs/dpm_world_prototype.log
+[2017.04.30-16.27.21:134][128]SourceControl: Info Untracked files:
+[2017.04.30-16.27.21:134][128]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	Saved/Logs/UE4CC-Windows-1AFBAA57470E592BF68400ADA609F1F4/
+[2017.04.30-16.27.21:134][128]SourceControl: Info 	Saved/Logs/dpm_world_prototype-backup-2017.04.30-18.18.05.log
+[2017.04.30-16.27.21:134][128]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.04.30-16.27.46:649][346]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.04.30-16.27.51:640][346]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-16.27.51:750][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap2" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/NewMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-16.27.51:797][346]LogSavePackage: Save=21.91ms
+[2017.04.30-16.27.51:797][346]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/NewMap285F135494D4E9856C1C00589E9CC26DD.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/NewMap2.umap'
+[2017.04.30-16.27.51:798][346]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/NewMap2.umap
+[2017.04.30-16.27.51:930][346]LogFileHelpers: Saving map 'NewMap2' took 0.401
+[2017.04.30-16.27.52:017][351]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.04.30-16.27.56:176][596]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.04.30-16.27.56:250][596]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/_project_storage/UNREAL/dpm_world_prototyp/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.27.56:389][596]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.139 s
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: 
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'D:/_project_storage/UNREAL/dpm_world_prototyp/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: Stack: 
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D96C95E6
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D9479B82
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D948B666
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D8E5A6B8
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000E6723D22
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000E6723EB9
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CB8A1D2E
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CB85B4B5
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CB85AA8D
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CB86F274
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000C2C2B851
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000C2C3D1ED
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000E6729C5C
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D27C7517
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D2FD2086
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor.exe!0x000000003F14DEE3
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor.exe!0x000000003F13EB40
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor.exe!0x000000003F13EBBA
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor.exe!0x000000003F150A29
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: UE4Editor.exe!0x000000003F1522B6
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: kernel32.dll!0x00000000771559CD
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: ntdll.dll!0x000000007728A561
+[2017.04.30-16.27.56:389][596]LogOutputDevice:Error: 
+[2017.04.30-16.27.56:398][596]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.30-16.27.56:758][596]LogStats:                    SendNewReport -  0.361 s
+[2017.04.30-16.27.56:758][596]LogStats:             FDebug::EnsureFailed -  0.508 s
+[2017.04.30-16.28.10:098][596]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.04.30-16.28.10:138][596]SourceControl: Info [master d37da76] material gebaut ihr hintern
+[2017.04.30-16.28.10:138][596]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.04.30-16.28.10:138][596]SourceControl: Info  create mode 100644 Content/Maps/NewMap2.umap
+[2017.04.30-16.28.10:150][596]SourceControl: Info Commited [master d37da76] material gebaut ihr hintern.
+[2017.04.30-16.31.46:663][ 14]LogLinker:Warning: Asset 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/NewMap.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.30-16.31.46:664][ 14]LogLinker:Warning: Asset 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Cone_Actor_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.30-16.31.46:686][ 14]LogLinker:Warning: Asset 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/mausmode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.30-16.31.46:686][ 14]LogLinker:Warning: Asset 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.30-16.31.46:712][ 14]LogAIModule: Creating AISystem for world NewMap
+[2017.04.30-16.31.53:555][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/philsmat" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/philsmat.uasset" SILENT=true
+[2017.04.30-16.31.53:569][108]LogSavePackage: Save=10.88ms
+[2017.04.30-16.31.53:569][108]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/philsmatF0CEAC0B486077373C10D483B1154527.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/philsmat.uasset'
+[2017.04.30-16.31.53:570][108]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/philsmat.uasset
+[2017.04.30-16.31.53:653][108]Cmd: MAP LOAD FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-16.31.53:653][108]LightingResults: New page: Lighting Build
+[2017.04.30-16.31.53:654][108]LoadErrors: New page: Loading map: NewMap.umap
+[2017.04.30-16.31.53:655][108]MapCheck: New page: Map Check
+[2017.04.30-16.31.53:655][108]LightingResults: New page: Lighting Build
+[2017.04.30-16.31.53:714][108]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-16.31.53:717][108]LogSlate: Took 0.000549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-16.31.53:737][108]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-16.31.53:818][108]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.426ms to complete.
+[2017.04.30-16.31.53:818][108]LogFileHelpers: Loading map 'NewMap' took 0.167
+[2017.04.30-16.32.03:865][659]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.04.30-16.32.04:536][659]LogSlate: Took 0.000589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.30-16.32.05:829][726]LogSlate: Took 0.000586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.30-16.32.13:177][157]LogRenderer: Reallocating scene render targets to support 1060x720 NumSamples 1 (Frame:33272).
+[2017.04.30-16.32.18:636][476]LogEditorViewport: Clicking Background
+[2017.04.30-16.32.49:367][918]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2017.04.30-16.33.06:619][969]LogAIModule: Creating AISystem for world globe
+[2017.04.30-16.33.08:128][ 57]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000002 seconds
+[2017.04.30-16.33.08:128][ 57]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.04.30-16.33.14:537][428]LogAIModule: Creating AISystem for world serverclick_001
+[2017.04.30-16.33.17:467][594]LogAIModule: Creating AISystem for world serverclick_002
+[2017.04.30-16.33.20:158][747]LogAIModule: Creating AISystem for world NewMap2
+[2017.04.30-16.33.31:008][289]SourceControl: Info rm 'Content/Maps/NewMap2.umap'
+[2017.04.30-16.35.31:701][147]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.04.30-16.35.31:772][147]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/_project_storage/UNREAL/dpm_world_prototyp/dpm_world_prototype.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.04.30-16.35.44:207][147]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.04.30-16.35.44:267][147]SourceControl: Info [master 87b9950] aufräumen
+[2017.04.30-16.35.44:267][147]SourceControl: Info  4 files changed, 0 insertions(+), 0 deletions(-)
+[2017.04.30-16.35.44:267][147]SourceControl: Info  delete mode 100644 Content/Maps/NewMap2.umap
+[2017.04.30-16.35.44:267][147]SourceControl: Info  create mode 100644 Content/Maps/globe.umap
+[2017.04.30-16.35.44:267][147]SourceControl: Info  create mode 100644 Content/Maps/serverclick_002.umap
+[2017.04.30-16.35.44:267][147]SourceControl: Info  create mode 100644 Content/philsmat.uasset
+[2017.04.30-16.35.44:280][147]SourceControl: Info Commited [master 87b9950] aufräumen.
+[2017.04.30-16.35.44:280][147]SourceControl:Error: Error Operation 'CheckOut' not supported by source control provider 'Git'
+[2017.04.30-16.36.06:915][112]AssetReimport: New page: Outstanding source content changes 8:36:06 PM
+[2017.04.30-16.36.06:999][112]LogEditorFactories: Performing atomic reimport of [D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_bump.jpg]
+[2017.04.30-16.36.07:001][112]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_bump.jpg)
+[2017.04.30-16.36.07:972][112]LogEditorFactories: -- imported successfully
+[2017.04.30-16.36.08:144][113]LogEditorFactories: Performing atomic reimport of [D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_clouds.jpg]
+[2017.04.30-16.36.08:152][113]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_clouds.jpg)
+[2017.04.30-16.36.11:376][113]LogEditorFactories: -- imported successfully
+[2017.04.30-16.36.11:400][114]LogEditorFactories: Performing atomic reimport of [D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_earth.jpg]
+[2017.04.30-16.36.11:404][114]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_earth.jpg)
+[2017.04.30-16.36.14:025][114]LogEditorFactories: -- imported successfully
+[2017.04.30-16.36.14:052][115]LogEditorFactories: Performing atomic reimport of [D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_night_lights.jpg]
+[2017.04.30-16.36.14:055][115]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_night_lights.jpg)
+[2017.04.30-16.36.15:633][115]LogEditorFactories: -- imported successfully
+[2017.04.30-16.36.15:648][116]LogEditorFactories: Performing atomic reimport of [D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_normal.jpg]
+[2017.04.30-16.36.15:654][116]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_normal.jpg)
+[2017.04.30-16.36.16:642][116]LogEditorFactories: -- imported successfully
+[2017.04.30-16.36.16:659][117]LogEditorFactories: Performing atomic reimport of [D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/earth.obj]
+[2017.04.30-16.36.16:687][117]LogFbx: Loading FBX Scene from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/earth.obj
+[2017.04.30-16.36.16:761][117]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.30-16.36.17:658][117]LogStaticMesh: Building static mesh earth-sphere...
+[2017.04.30-16.36.17:768][117]LogStaticMesh: Built static mesh [0.11s] /Game/Collections/planet/earth-sphere.earth-sphere
+[2017.04.30-16.36.17:809][117]LogEditorFactories: -- imported successfully
+[2017.04.30-16.36.17:933][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/planet/4096_bump" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_bump.uasset" SILENT=true
+[2017.04.30-16.36.18:112][118]LogSavePackage: Save=174.87ms
+[2017.04.30-16.36.18:112][118]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/4096_bump355F5DAA40C1AE11C1108F9FCC186AD8.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_bump.uasset'
+[2017.04.30-16.36.18:114][118]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_bump.uasset
+[2017.04.30-16.36.18:140][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/planet/4096_clouds" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_clouds.uasset" SILENT=true
+[2017.04.30-16.36.18:592][118]LogSavePackage: Save=444.85ms
+[2017.04.30-16.36.18:592][118]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/4096_cloudsCD78B1CB4380EA8D6DD2F7B9F0EE5970.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_clouds.uasset'
+[2017.04.30-16.36.18:594][118]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_clouds.uasset
+[2017.04.30-16.36.18:600][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/planet/4096_earth" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_earth.uasset" SILENT=true
+[2017.04.30-16.36.19:686][118]LogSavePackage: Save=952.45ms
+[2017.04.30-16.36.19:686][118]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/4096_earth20D6714E4858766544371DA8C0522256.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_earth.uasset'
+[2017.04.30-16.36.19:688][118]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_earth.uasset
+[2017.04.30-16.36.19:695][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/planet/4096_night_lights" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_night_lights.uasset" SILENT=true
+[2017.04.30-16.36.20:254][118]LogSavePackage: Save=552.92ms
+[2017.04.30-16.36.20:254][118]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/4096_night_lights6F29F14B45B24972D527BFA87B803BFE.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_night_lights.uasset'
+[2017.04.30-16.36.20:255][118]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_night_lights.uasset
+[2017.04.30-16.36.20:262][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/planet/4096_normal" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_normal.uasset" SILENT=true
+[2017.04.30-16.36.21:082][118]LogSavePackage: Save=811.95ms
+[2017.04.30-16.36.21:082][118]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/4096_normalC993FB1B436512C61B9B4E9587C19703.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_normal.uasset'
+[2017.04.30-16.36.21:084][118]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_normal.uasset
+[2017.04.30-16.36.21:164][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/planet/earth-sphere" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/earth-sphere.uasset" SILENT=true
+[2017.04.30-16.36.21:184][118]LogSavePackage: Save=15.00ms
+[2017.04.30-16.36.21:184][118]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/earth-sphere36E1E46A46DE9C5F4ECB23A56B0477D9.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/earth-sphere.uasset'
+[2017.04.30-16.36.21:185][118]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/earth-sphere.uasset
+[2017.04.30-16.36.24:197][294]AssetReimport: Info Reimported asset 4096_bump from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_bump.jpg.
+[2017.04.30-16.36.24:197][294]AssetReimport: Info Reimported asset 4096_clouds from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_clouds.jpg.
+[2017.04.30-16.36.24:197][294]AssetReimport: Info Reimported asset 4096_earth from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_earth.jpg.
+[2017.04.30-16.36.24:198][294]AssetReimport: Info Reimported asset 4096_night_lights from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_night_lights.jpg.
+[2017.04.30-16.36.24:198][294]AssetReimport: Info Reimported asset 4096_normal from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/4096_normal.jpg.
+[2017.04.30-16.36.24:198][294]AssetReimport: Info Reimported asset earth-sphere from D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/planet/earth.obj.
+[2017.04.30-16.37.14:746][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/globe" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-16.37.14:772][881]LogSavePackage: Save=9.72ms
+[2017.04.30-16.37.14:772][881]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/globeF9DCD9B242C49EDF1005FDA61B6A4B7C.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap'
+[2017.04.30-16.37.14:774][881]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap
+[2017.04.30-16.37.14:775][881]LogFileHelpers: Saving map 'globe' took 0.145
+[2017.04.30-16.37.24:893][483]SourceControl: Info On branch master
+[2017.04.30-16.37.24:893][483]SourceControl: Info Your branch is ahead of 'origin/master' by 2 commits.
+[2017.04.30-16.37.24:893][483]SourceControl: Info   (use "git push" to publish your local commits)
+[2017.04.30-16.37.24:893][483]SourceControl: Info Changes not staged for commit:
+[2017.04.30-16.37.24:893][483]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.30-16.37.24:893][483]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Content/Maps/globe.umap
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Intermediate/ReimportCache/3688439234.bin
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	deleted:    Saved/Logs/MyProject-backup-2017.04.30-14.02.17.log
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	deleted:    Saved/Logs/MyProject-backup-2017.04.30-16.38.45.log
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	modified:   Saved/Logs/dpm_world_prototype.log
+[2017.04.30-16.37.24:893][483]SourceControl: Info Untracked files:
+[2017.04.30-16.37.24:893][483]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	Build/
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	Content/Collections/
+[2017.04.30-16.37.24:893][483]SourceControl: Info 	Content/ServerLocator_Blueprint.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Intermediate/Staging/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Autosaves/Game/Maps/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/4096_bump_2017-04-30-18-36-17.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/4096_clouds_2017-04-30-18-36-18.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/4096_earth_2017-04-30-18-36-18.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/4096_night_lights_2017-04-30-18-36-19.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/4096_normal_2017-04-30-18-36-20.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/Cone_2017-04-30-13-10-18.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/Maus_2017-04-30-13-50-50.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/earth-sphere_2017-04-30-14-18-10.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/earth-sphere_2017-04-30-18-36-21.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/earthmat_2017-04-30-12-54-26.uasset
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/globe_2017-04-30-12-56-34.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/globe_2017-04-30-13-10-59.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/globe_2017-04-30-13-20-17.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/globe_2017-04-30-15-58-33.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/globe_2017-04-30-18-37-14.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_001_2017-04-30-13-44-55.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_001_2017-04-30-13-55-29.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_001_2017-04-30-14-19-12.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_001_2017-04-30-14-29-12.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_001_2017-04-30-15-58-33.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_002_2017-04-30-12-54-49.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_002_2017-04-30-16-47-14.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_002_2017-04-30-17-58-40.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Backup/serverclick_002_2017-04-30-18-06-26.umap
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Collections/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Config/WorldState/1070963259.json
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Config/WorldState/1420384637.json
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Config/WorldState/301751758.json
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Config/WorldState/3064045148.json
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Config/WorldState/986779149.json
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/EditorCooked/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/MyProject-backup-2017.04.30-12.31.46.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/MyProject3-backup-2017.04.30-16.49.04.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/MyProject3.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/Serverclick-backup-2017.04.30-13.20.46.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/Serverclick-backup-2017.04.30-15.56.51.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/Serverclick-backup-2017.04.30-16.48.06.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/Serverclick-backup-2017.04.30-16.52.09.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/Serverclick.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/Serverclick_2.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-0301A8654A1492D82E5D5D8AC3BCD6D7/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-117E72AB4D55B4A7ED7B5D98010237A6/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-1AFBAA57470E592BF68400ADA609F1F4/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-1AFBAA57470E592BF68400ADA609F1F4_0000/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-3163A75D463C6CC4755CE79845A7B418/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-5AC272F1432FA85EB920C58B6BE02D27/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-810F7E544AE5FCF8852FE99075FB9260/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-B4EE91E341AEC68674DD08BF0D9AFF36/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-BE539E64404917517973E1B1C0EAB11B/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-DEE1893542079F3C3EB5AA9B8ADD61D6/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/UE4CC-Windows-FCBB76AA43A2141A033B82BB7810E75C/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Logs/dpm_world_prototype-backup-2017.04.30-18.18.05.log
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/StagedBuilds/
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Saved/Thumbs.db
+[2017.04.30-16.37.24:894][483]SourceControl: Info 	Serverclick.uproject
+[2017.04.30-16.37.24:894][483]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.04.30-16.37.38:152][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/globe" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-16.37.38:180][574]LogSavePackage: Save=9.50ms
+[2017.04.30-16.37.38:180][574]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/globe6BB753FD4B0ADAA9DE2CEA8D0D40AAC0.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap'
+[2017.04.30-16.37.38:181][574]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap
+[2017.04.30-16.37.38:182][574]LogFileHelpers: Saving map 'globe' took 0.147
+[2017.04.30-16.42.12:051][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/globe" FILE="D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-16.42.12:078][131]LogSavePackage: Save=9.33ms
+[2017.04.30-16.42.12:078][131]LogSavePackage: Moving 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/globe70915B4F4C47E1A3956207B229E4A947.tmp' to 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap'
+[2017.04.30-16.42.12:080][131]LogSavePackage:Display: Finished SavePackage D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Maps/globe.umap
+[2017.04.30-16.42.12:081][131]LogFileHelpers: Saving map 'globe' took 0.142
+[2017.04.30-16.42.12:300][132]Cmd: QUIT_EDITOR
+[2017.04.30-16.42.12:366][132]LogExit: Preparing to exit.
+[2017.04.30-16.42.12:597][132]LogExit: Editor shut down
+[2017.04.30-16.42.12:597][132]LogExit: Transaction tracking system shut down
+[2017.04.30-16.42.12:689][132]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.30-16.42.12:689][132]LogExit: Object subsystem successfully closed.
+[2017.04.30-16.42.12:710][132]LogD3D11RHI: Shutdown
+[2017.04.30-16.42.12:710][132]LogD3D11RHI: CleanupD3DDevice
+[2017.04.30-16.42.12:786][132]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.30-16.42.12:811][132]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.30-16.42.12:811][132]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.30-16.42.12:811][132]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.30-16.42.12:812][132]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.30-16.42.12:812][132]LogDirectoryWatcher: A directory notification for 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Collections/' was aborted.
+[2017.04.30-16.42.12:812][132]LogDirectoryWatcher: A directory notification for 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/Developers/Boss/Collections/' was aborted.
+[2017.04.30-16.42.12:812][132]LogDirectoryWatcher: A directory notification for 'D:/_project_storage/UNREAL/dpm_world_prototyp/Saved/Collections/' was aborted.
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.30-16.42.12:812][132]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.30-16.42.12:813][132]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.30-16.42.13:075][132]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.30-16.42.13:115][132]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.30-16.42.13:121][132]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.30-16.42.13:227][132]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.30-16.42.13:228][132]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.30-16.42.13:229][132]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.30-16.42.13:229][132]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.30-16.42.13:229][132]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.30-16.42.13:230][132]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.30-16.42.13:230][132]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.30-16.42.13:230][132]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.30-16.42.13:230][132]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.30-16.42.13:330][132]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.30-16.42.13:430][132]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.30-16.42.13:431][132]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.30-16.42.13:431][132]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.30-16.42.13:431][132]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.30-16.42.13:431][132]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.30-16.42.13:431][132]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.30-16.42.13:431][132]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.30-16.42.13:434][132]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.30-16.42.13:434][132]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.30-16.42.13:434][132]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.30-16.42.13:434][132]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.30-16.42.13:434][132]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.30-16.42.13:434][132]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.30-16.42.13:623][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.30-16.42.13:623][132]LogDirectoryWatcher: A directory notification for 'D:/_project_storage/UNREAL/dpm_world_prototyp/Content/' was aborted.
+[2017.04.30-16.42.13:623][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.30-16.42.13:624][132]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.30-16.42.13:688][132]LogDerivedDataCache: Shutdown
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.30-16.42.13:688][132]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.30-16.42.13:689][132]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.30-16.42.13:689][132]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.30-16.42.13:689][132]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.30-16.42.13:689][132]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD87FF29B-46C1-D13E-3511-AF9582B794E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=58c3fb5242ace6fa7190dea603ad4110%7Cdcf751bebe2544ada5d0fe1cb4b74baf%7Cc48becae-e2d7-40da-8602-c0dcb6c152e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.30-16.42.13:693][132]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.30-16.42.13:694][132]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.30-16.42.13:694][132]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.30-16.42.13:694][132]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.30-16.42.13:694][132]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.30-16.42.13:694][132]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.30-16.42.13:695][132]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.30-16.42.13:696][132]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.30-16.42.13:696][132]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.30-16.42.13:697][132]LogExit: Exiting.
+[2017.04.30-16.42.13:705][132]Log file closed, 04/30/17 18:42:13
