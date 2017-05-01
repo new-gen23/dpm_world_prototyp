@@ -1,0 +1,17 @@
+Engine\Binaries\Win64\UE4Game.exe	2017-04-01T10:26:47.786Z
+Serverclick.exe	2017-04-30T16:06:57.204Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxFoundationPROFILE_x64.dll	2017-04-01T10:23:59.273Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxPvdSDKPROFILE_x64.dll	2017-04-01T10:23:59.479Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3PROFILE_x64.dll	2017-04-01T10:23:59.067Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CookingPROFILE_x64.dll	2017-04-01T10:23:58.650Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CommonPROFILE_x64.dll	2017-04-01T10:23:58.246Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_ClothingPROFILE_x64.dll	2017-04-01T10:23:55.703Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_DestructiblePROFILE_x64.dll	2017-04-01T10:23:56.538Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_LegacyPROFILE_x64.dll	2017-04-01T10:23:57.187Z
+Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\ApexFrameworkPROFILE_x64.dll	2017-04-01T10:23:57.904Z
+Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll	2017-04-01T10:23:50.526Z
+Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll	2017-04-01T10:24:01.804Z
+Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll	2017-04-01T10:24:01.805Z
+Engine\Binaries\ThirdParty\Oculus\OculusMobile\SDK_1_0_3\Win64\VrApiShim.dll	2017-04-01T10:23:50.516Z
+Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_0_2\Win64\openvr_api.dll	2017-04-01T10:23:51.294Z
+Engine\Build\Build.version	2017-04-01T10:27:07.051Z
